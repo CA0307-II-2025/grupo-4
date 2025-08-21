@@ -5,3 +5,13 @@ Pueden incluir cualquier archivo, enlance o lo que necesiten para llevar al día
 -> Para conceptualización, desde el sitio web de la Superintendencia General de Valores (SUGEVAL) se brinda información para el inversionista, incluyendo conceptos como riesgo, beneficio y demás. https://www.sugeval.fi.cr/Informacion-inversionistas
 
 -> Articulo de la revista Quipukamayoc (https://revistasinvestigacion.unmsm.edu.pe/index.php/quipu/index), habla acerca del análisis de riegos de la inversión en activos financieros; indaga en diversos indicadores que se deben  tomar en cuenta, entre estos: la varianza, desviación típica y la Beta. https://doi.org/10.15381/quipu.v21i40.6309 
+
+-> Estudio para precisar aspectos financieros y operativos para la constitución de un fondo de inversión de desarrollo inmobiliario. https://repositorio.sibdi.ucr.ac.cr/items/6c430f73-cba1-4a3c-a652-6d928bd68090
+
+-> Elaboración de una estrategia de inversión a corto plazo del Banco I.M. S.A., mediante el análisis y evaluación de instrumentos financieros internacionales cuya calificación se ajuste a lo solicitado en el marco regulatorio y permita generar una rentabilidad del portafolio de inversión. https://repositorio.sibdi.ucr.ac.cr/items/83d5ae38-f47a-46a8-a8e3-b766e3d0958c
+
+-> Modelo de riesgo emisor para los portafolios de inversión del Banco Nacional de Costa Rica. https://repositorio.sibdi.ucr.ac.cr/items/1d5a1cd3-2e9c-419f-a508-899d1bc5190a
+
+-> Análisis comparativo de las metodologías que utilizan las superintendencias de Costa Rica, para el cálculo del valor en riesgo (VAR), de los portafolios de inversiones. https://repositorio.sibdi.ucr.ac.cr/items/457a92f1-04ef-454f-bc31-21cbabb45508
+
+-> Propuesta de priorización y selección de activos financieros para la conformación de portafolios de inversión para COOPERSANRAMÓN R.L. https://repositorio.sibdi.ucr.ac.cr/items/24edef8d-1f92-4abe-90ce-b3e0ad6bded4
