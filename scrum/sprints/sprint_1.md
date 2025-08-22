@@ -15,27 +15,28 @@
 -   HU#7 - Como científico de datos, quiero generar scripts de creación de gráficos (Estimación: 4pts) – *Criterios de aceptación confirmados.*
 -   HU#8 - Como investigador, quiero generar una prevista de lo que será el documento del reporte de la investigación. (Estimación: 3pts) – *Criterios de aceptación confirmados.*
 
-
 ## 🔜 Plan de alto nivel:
 
--   *Semana 1:* *Tareas principales (ej: Ingesta de datos, Setup entorno CI).*
--   *Semana 2:* *Tareas principales (ej: Implementar modelo y validar, preparar demo).*
+-   *Semana 1:* *Definir tema de investigación y encontrar la base de datos*
+-   *Semana 2:* *Purificar la base de datos y creación de scripts para graficación y análisis de datos.*
 
 ## 🥇 Criterios de aceptación del Sprint:
 
 -   [ ] *Todas las historias listadas completadas y aceptadas por el profesor.*
 -   [ ] *El código limpia automáticamente la base de datos.*
+-   [ ] Es posible generar gráficas de los rendimientos de las empresas
 
 ## 📌 Asignación de tareas inicial
 
--   *Persona A:* Historia 1
--   *Persona B:* Historia 2
--   *Persona C:* documentación
+-   *Cristhofer Urrutia:* HU#1, HU#4, HU#5
+-   *Dominick Rodríguez:* HU#3, Documentación, Presentación
+-   *Jeremy Flores:* HU#7, Presentación
+-   Gabriel Valverde: HU#6, HU#8, Documentación
 
 ## 🚫 Posibles bloqueos o impedimentos conocidos
 
--   **Bloqueo:** \_No tenemos la base de datos limpia.
--   **Solución** *Crear una historia solo para limpiar la base de datos*.
+-   **Bloqueo:** No sabemos si el profesor nos aceptará completamente el tema o si hay que realizar ajustes al mismo.
+-   **Solución** *Tener una reunión con el profesor para coversar del tema*.
 
 # ⏳ Daily
 
@@ -45,33 +46,33 @@ El formato para cada estudiante debe ser
 -   **¿Qué haré hoy?**: *Enumerar foco de hoy (ej: "Integrar resultados descriptivos en el reporte y comenzar prueba de hipótesis").*
 -   **¿Hay algo que me está bloqueando?**: *Listar obstáculos o dependencias (ej: "Falta confirmar el rango de años con PO" o "La librería X está dando un bug").*
 
-## Fecha: YYYY-MM-DD
+## Fecha: 2025-08-21
 
-### Estudiante A:
-
--   **¿Qué hice ayer?**:
--   **¿Qué haré hoy?**:
--   **¿Hay algo que me está bloqueando?**:
-
-### Estudiante B:
+### Cristhofer Urrutia:
 
 -   **¿Qué hice ayer?**:
 -   **¿Qué haré hoy?**:
 -   **¿Hay algo que me está bloqueando?**:
 
-### Estudiante C:
+### Dominick Rodríguez:
 
 -   **¿Qué hice ayer?**:
 -   **¿Qué haré hoy?**:
 -   **¿Hay algo que me está bloqueando?**:
 
-### Estudiante D:
+### Jeremy Flores:
 
 -   **¿Qué hice ayer?**:
 -   **¿Qué haré hoy?**:
 -   **¿Hay algo que me está bloqueando?**:
 
-# 🔍 Revisión en clase (Fecha: YYYY-MM-DD)
+### Gabriel Valverde:
+
+-   **¿Qué hice ayer?**: Manejo del git, creación de historias y asignación de tareas.
+-   **¿Qué haré hoy?**: Esqueleto del Dashboard, Formato del trabajo escrito, revisión de tareas.
+-   **¿Hay algo que me está bloqueando?**: La incertidumbre de las revisiones del trabajo para saber en qué mejorar.
+
+# 🔍 Revisión en clase (Fecha: 2025-08-22)
 
 ## 📈 Resultado mostrado
 
