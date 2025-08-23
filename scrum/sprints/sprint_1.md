@@ -65,9 +65,9 @@ El formato para cada estudiante debe ser
 
 ### Jeremy Flores:
 
--   **¿Qué hice ayer?**:
--   **¿Qué haré hoy?**:
--   **¿Hay algo que me está bloqueando?**:
+-   **¿Qué hice ayer?**: Manejo del git bash, se clono el repositorio y se leyo la base de datos.
+-   **¿Qué haré hoy?**: Se programo una función para generar gráficos de histogramas donde se representa la distribución de frecuencias y en el eje X los rendimientos diarios de las empresas y en el eje Y la frecuencia.
+-   **¿Hay algo que me está bloqueando?**: Estoy teniendo problemas con los commit, aunque si se permitio que se cargara la gráfica y demás.
 
 ### Gabriel Valverde:
 
