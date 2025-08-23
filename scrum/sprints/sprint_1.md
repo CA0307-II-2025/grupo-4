@@ -57,8 +57,11 @@ El formato para cada estudiante debe ser
 ### Dominick Rodríguez:
 
 -   **¿Qué hice ayer?**:
+  Se hizo la busqueda de fuentes bibliográficas, y se encuentran varios articulos, papers e informes relacionados a los temas de análisis de riesgo financiero, mercado de valores/acciones y optimización de portafolios de inversión
 -   **¿Qué haré hoy?**:
+  Se van a revisar las fuentes encontradas en los días anteriores con el objetivo de seleccionar las más importantes y útiles para nuestro proyecto, y hacer un resumen breve de cada una de ellas, al mismo tiempo, se va a tomar nota de los conceptos necesarios para el desarrollo del proyecto y se intentará definir cada uno de la manera más clara posible. Adicionalmente, se va a prepara un documento preliminar de planteamiento que incluye la pregunta de investigación, el trabajo hecho con las fuentes anteriores y la presentación para la exposición del día de mañana.
 -   **¿Hay algo que me está bloqueando?**:
+  Es complicado determinar cuales son las fuentes más relevantes.
 
 ### Jeremy Flores:
 
@@ -73,6 +76,12 @@ El formato para cada estudiante debe ser
 -   **¿Hay algo que me está bloqueando?**: La incertidumbre de las revisiones del trabajo para saber en qué mejorar.
 
 # 🔍 Revisión en clase (Fecha: 2025-08-22)
+
+Se conversa con el profesor y se aclara que la idea del proyecto no es trabajar con series de tiempo, y además se le mencionan algunos problemas que se tuvieron con el trabajo en el repositorio, el backlog y el current sprint. 
+
+En cuanto al tema, el profesor acepta la idea que presentamos para el trabajo con portafolios de inversión en acciones.
+
+En cuanto a las complicaciones con el repositorio y demás, acordamos con el profesor de comunicarnos por medio de correo electrónico para resolver los problemas que tuvimos con el backlog y las historias de usuario, aún esta pendiente la solución a estos problemas.
 
 ## 📈 Resultado mostrado
 
