@@ -79,7 +79,7 @@ El formato para cada estudiante debe ser
 
 El Scrum Master hace la presentación del tema, los concpetos relevantes, antecendentes a la investigación, los datos a utilizar y la metodología que se desea aplicar al proyecto.
 
-Se conversa con el profesor y se aclara que la idea del proyecto no es trabajar con series de tiempo, y además se le mencionan algunos problemas que se tuvieron con el trabajo en el repositorio, el backlog y el current sprint. 
+Se conversa con el profesor y se aclara que la idea del proyecto no es trabajar con series de tiempo, y además se le mencionan algunos problemas que se tuvieron con el trabajo en el repositorio, el backlog y el current sprint.
 
 En cuanto al tema, el profesor acepta la idea que presentamos para el trabajo con portafolios de inversión en acciones.
 
