@@ -4,7 +4,7 @@ Pueden incluir cualquier archivo, enlance o lo que necesiten para llevar al día
 
 -> Para conceptualización, desde el sitio web de la Superintendencia General de Valores (SUGEVAL) se brinda información para el inversionista, incluyendo conceptos como riesgo, beneficio y demás. https://www.sugeval.fi.cr/Informacion-inversionistas
 
--> Articulo de la revista Quipukamayoc (https://revistasinvestigacion.unmsm.edu.pe/index.php/quipu/index), habla acerca del análisis de riegos de la inversión en activos financieros; indaga en diversos indicadores que se deben  tomar en cuenta, entre estos: la varianza, desviación típica y la Beta. https://doi.org/10.15381/quipu.v21i40.6309 
+-> Articulo de la revista Quipukamayoc (https://revistasinvestigacion.unmsm.edu.pe/index.php/quipu/index), habla acerca del análisis de riegos de la inversión en activos financieros; indaga en diversos indicadores que se deben  tomar en cuenta, entre estos: la varianza, desviación típica y la Beta. https://doi.org/10.15381/quipu.v21i40.6309
 
 -> Estudio para precisar aspectos financieros y operativos para la constitución de un fondo de inversión de desarrollo inmobiliario. https://repositorio.sibdi.ucr.ac.cr/items/6c430f73-cba1-4a3c-a652-6d928bd68090
 

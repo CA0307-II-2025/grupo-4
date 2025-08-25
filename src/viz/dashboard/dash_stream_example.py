@@ -6,7 +6,7 @@ st.title("Dashboard de ejemplo")
 
 data = {
     "Mes": ["Enero", "Febrero", "Marzo", "Abril", "Mayo"],
-    "Ventas": [120, 150, 90, 200, 170]
+    "Ventas": [120, 150, 90, 200, 170],
 }
 df = pd.DataFrame(data)
 

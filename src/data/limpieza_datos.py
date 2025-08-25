@@ -134,35 +134,34 @@ class DatosFinancieros:
         return rendimientos_log
 
     def graficar_rendimientos(self, empresa):
-            """
-            Grafica los rendimientos diarios de una empresa específica.
-        
-            Args:
-                empresa (str): Símbolo de la empresa a graficar.
-            """
-            retornos_historicos = self.rendimientos_diarios()[empresa]
-            
-            plt.figure(figsize=(10,6))
-            sns.set_style("whitegrid")
-        
-            sns.histplot(
-                retornos_historicos,
-                bins = 70,
-                kde = False,
-                color = 'navy',
-                alpha = 0.7,
-                edgecolor = 'black'
-            )
-            lim = max(abs(retornos_historicos.min()), abs(retornos_historicos.max()))
-            plt.xlim(-lim, lim)
-        
-            plt.title(f'Rendimientos diarios de {empresa}', fontsize=14, weight = 450, loc = 'center')
-            plt.xlabel('Rendimientos diarios', fontsize=14)
-            plt.ylabel('Frecuencia', fontsize = 14)
-            
-            plt.grid(True, linestyle='--', alpha=0.4)
-            plt.tight_layout()
-            plt.show()
-            
+        """
+        Grafica los rendimientos diarios de una empresa específica.
 
+        Args:
+            empresa (str): Símbolo de la empresa a graficar.
+        """
+        retornos_historicos = self.rendimientos_diarios()[empresa]
 
+        plt.figure(figsize=(10, 6))
+        sns.set_style("whitegrid")
+
+        sns.histplot(
+            retornos_historicos,
+            bins=70,
+            kde=False,
+            color="navy",
+            alpha=0.7,
+            edgecolor="black",
+        )
+        lim = max(abs(retornos_historicos.min()), abs(retornos_historicos.max()))
+        plt.xlim(-lim, lim)
+
+        plt.title(
+            f"Rendimientos diarios de {empresa}", fontsize=14, weight=450, loc="center"
+        )
+        plt.xlabel("Rendimientos diarios", fontsize=14)
+        plt.ylabel("Frecuencia", fontsize=14)
+
+        plt.grid(True, linestyle="--", alpha=0.4)
+        plt.tight_layout()
+        plt.show()
