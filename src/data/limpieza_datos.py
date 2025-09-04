@@ -1,4 +1,4 @@
-# Funciones para carga y limpieza de datos:
+# Funciones para carga, limpieza de datos y graficación:
 
 import yfinance as yf
 import numpy as np
@@ -7,7 +7,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 
 
-class DatosFinancieros:
+class limpieza_datos:
     def __init__(self, empresas: list[str], fecha_inicio: str, fecha_fin: str):
         """
         Inicializa la clase con las empresas y fechas dadas.
@@ -150,7 +150,7 @@ class DatosFinancieros:
             bins=70,
             kde=False,
             color="navy",
-            alpha=0.7,
+            alpha=0.73,
             edgecolor="black",
         )
         lim = max(abs(retornos_historicos.min()), abs(retornos_historicos.max()))
