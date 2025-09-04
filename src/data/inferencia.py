@@ -9,12 +9,16 @@ import numpy as np
 
 
 class inferencia(limpieza_datos):
-    def __init__(self, empresas: list[str], fecha_inicio: str, fecha_fin: str):
+    def __init__(
+        self, empresas: list[str], fecha_inicio: str, fecha_fin: str, alpha=0.05
+    ):
         super().__init__(empresas, fecha_inicio, fecha_fin)
 
-    def normalidad(self, alpha: float, empresa: str, graficar: bool):
+        self.alpha = alpha
+
+    def normalidad(self, empresa: str, graficar=False, var=None, cvar=None):
         """
-        Test de normalidad basado en Anderson–Darling (familia Cramér–von Mises).
+        Test de normalidad basado en Anderson–Darling.
         Retorna True si no se rechaza normalidad, False en caso contrario.
         """
 
@@ -25,7 +29,7 @@ class inferencia(limpieza_datos):
         z = (x - mu_hat) / sigma_hat
         stat, p = normal_ad(z)
 
-        normal = bool(p >= alpha)
+        normal = bool(p >= self.alpha)
 
         if graficar and normal:
             plt.figure(figsize=(10, 6))
@@ -41,6 +45,23 @@ class inferencia(limpieza_datos):
                 alpha=0.5,
                 edgecolor="black",
             )
+
+            if var is not None:
+                plt.axvline(
+                    var,
+                    color="darkorange",
+                    linestyle="--",
+                    linewidth=2,
+                    label=f"VaR ({var:.3f})",
+                )
+            if cvar is not None:
+                plt.axvline(
+                    cvar,
+                    color="darkgreen",
+                    linestyle="--",
+                    linewidth=2,
+                    label=f"CVaR ({cvar:.3f})",
+                )
 
             lim = max(abs(np.nanmin(x)), abs(np.nanmax(x)))
             plt.xlim(-lim, lim)
@@ -85,7 +106,7 @@ class inferencia(limpieza_datos):
                 "n": len(x),
                 "statistic": float(stat),
                 "p_value": float(p),
-                "alpha": alpha,
+                "alpha": self.alpha,
                 "es normal": normal,
                 "mu": mu_hat,
                 "sigma": sigma_hat,
@@ -96,7 +117,7 @@ class inferencia(limpieza_datos):
                 "n": len(x),
                 "statistic": float(stat),
                 "p_value": float(p),
-                "alpha": alpha,
+                "alpha": self.alpha,
                 "es normal": normal,
                 "mu": mu_hat,
                 "sigma": sigma_hat,
