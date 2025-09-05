@@ -14,10 +14,10 @@ Se busca establecer un planteamiento para el proyecto, esto incluye expresar la 
 - HU#15 - "Como grupo de trabajo queremos definir la metodología a aplicar en las futuras secciones del proyecto" (Estimación: 3 pts) – *Criterios de aceptación confirmados.*
 - HU#16 - "Como miembro del equipo quiero construir la presentación de los hallazgos obtenidos en este segundo sprint" (Estimación: 2 pts) – *Criterios de aceptación confirmados.*
 - HU#17 - "Como analista quiero actualizar el dashboard del proyecto para incluir hallazgos y aspectos relevantes encontrados en el trabajo del segundo sprint" (Estimación: 5 pts) – *Criterios de aceptación confirmados.*
-  
+
 ## 🔜  Plan de alto nivel:
 - *Semana 1:* Reunirse para aclarar la metodología a utilizar, delimitar los alcances de la investigación, conversar acerca del desarrollo de las secciones del report de investigación, revisar la base de datos a utilizar y asignar o delegar las diversas tareas a realizar
-- *Semana 2:* Desarrollo de las tareas asignadas: redactar las secciones de introducción y motivación, definir los conceptos fundamentales y redactar el marco teórico, describir la base de datos y crear visualizaciones para las variables relevantes, implementar scripts en Python para el cálculo de algunas medidas de riesgo financiero relevantes (VaR y CVar), crear una presentación y actualizar el dashboard con los hallazgos obtenidos en este segundo sprint. 
+- *Semana 2:* Desarrollo de las tareas asignadas: redactar las secciones de introducción y motivación, definir los conceptos fundamentales y redactar el marco teórico, describir la base de datos y crear visualizaciones para las variables relevantes, implementar scripts en Python para el cálculo de algunas medidas de riesgo financiero relevantes (VaR y CVar), crear una presentación y actualizar el dashboard con los hallazgos obtenidos en este segundo sprint.
 
 
 ## 🥇  Criterios de aceptación del Sprint:
