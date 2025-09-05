@@ -159,7 +159,7 @@ Se recibe retroalimentación de parte del profesor, especificamente acerca de la
 - [✔] _El documento de planteamiento del proyecto finalizado._
 
 
-# 🔙  Retrospective – Fecha: 2025-09-06
+# 🔙  Retrospective – Fecha: 2025-09-05
 
 ## :white_check_mark: Qué salió bien
 1. _Se finalizó la redacción del documento de planteamiento del proyecto a tiempo_
