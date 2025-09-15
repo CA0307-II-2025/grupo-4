@@ -7,7 +7,7 @@ Se busca realizar un análisis descriptivo exploratorio de la base de datos, ela
 ## 😃  Historias de usuario
 
 - HU#18 -"Como investigador y analista se desea generar un análisis descritivo de la base de datos e identificar los patrones más relevantes"(Estimación: 5 pts) -Criterios de aceptación confirmados.
-  
+
 - HU#19- "Como analista se desea realizar gráficos explotorios de las variables más relevantes de la base de datos y así complementar el analisis descritivo" (Estamación: 5pts)-Criterios de aceptación confirmados.
 
 - HU#20- "Como investigador se desea ampliar las fuentes bibliográficas e ir documentando los métodos generales para el cálculo de CVaR, con el fin de fortalecer la base teórica del proyecto"(Estamación: 4pts)-Criterios de aceptación confirmados.
@@ -41,9 +41,9 @@ Se busca realizar un análisis descriptivo exploratorio de la base de datos, ela
 
 - **Bloqueo:** Problemas para generar los gráficos implentando las funciones de CVaR en Python.
 - **Solución** Revisión de las formulas y búsqueda de ejemplos y documentación adicional.
-  
+
 - **Bloqueo:** Dudas sobre la selección adicional de bibliografía y el método general del CVaR.
-- **Solución** Reunirse con el grupo y discutirlo entre todos. 
+- **Solución** Reunirse con el grupo y discutirlo entre todos.
 
 - **Bloqueo:** Posibles errores en el dashboard al integrar los nuevos resultados y gráficos.
 - **Solución** Ir haciendo pruebas y guardando versiones anteriores del dashboard.
