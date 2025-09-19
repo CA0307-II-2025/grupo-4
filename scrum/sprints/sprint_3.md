@@ -33,8 +33,8 @@ Se busca realizar un análisis descriptivo exploratorio de la base de datos, ela
 ## 📌  Asignación de tareas inicial
 - Jeremy Flores: HU#20, HU#21 y presentación
 - Dominick Rodríguez: HU#18, HU#20, HU#21
-- Cristhofer Urrutia: HU#18, HU#19
-- Gabriel Valverde: HU#21 y presentación
+- Cristhofer Urrutia: HU#18, HU#19  y presentación
+- Gabriel Valverde: HU#21 HU#22
 
 
 ## 🚫 Posibles bloqueos o impedimentos conocidos
