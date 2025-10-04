@@ -13,7 +13,6 @@ var_cvar_bnd = var_cvar(["BND"], "2000-01-01", "2025-01-01")
 print(var_cvar_bnd.var_cvar_normal(["BND"], True))
 
 # Resultado 3 Sprint 3-4:
-
 var_cvar_bnd.cola_izquierda(["BND"], True, 0.1)
 var_cvar_bnd.pareto_generalizada("BND", 0.1, True)
 print(var_cvar_bnd.var_cvar_gpd("BND", 0.95, 0.1))
