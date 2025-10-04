@@ -2,7 +2,7 @@
 
 ## 🎯  Objetivo del Sprint:
 
- _Declarar la meta del sprint en 1-2 frases (ej: "Tener datos limpios y un análisis descriptivo inicial completado")._
+Calcular VaR y CVaR con la metodología Peaks Over Threshold y ajustar por Generalised Pareto Distribution.
 
 ## 😃  Historias de usuario
 
@@ -43,8 +43,6 @@ El formato para cada estudiante debe ser
 - **¿Qué haré hoy?**: _Enumerar foco de hoy (ej: "Integrar resultados descriptivos en el reporte y comenzar prueba de hipótesis")._
 - **¿Hay algo que me está bloqueando?**: _Listar obstáculos o dependencias (ej: "Falta confirmar el rango de años con PO" o "La librería X está dando un bug")._
 
-
-
 ##  Fecha: YYYY-MM-DD
 
 ### Estudiante A:
@@ -70,8 +68,6 @@ El formato para cada estudiante debe ser
 
 
 # 🔍   Revisión en clase (Fecha: YYYY-MM-DD)
-
-
 
 ## 📈  Resultado mostrado
 
