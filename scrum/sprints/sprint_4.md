@@ -2,7 +2,10 @@
 
 ## 🎯  Objetivo del Sprint:
 
+
  Agregar funciones que calculen el VaR y CVaR bajo la metodología POT + GPD.
+
+Calcular VaR y CVaR con la metodología Peaks Over Threshold y ajustar por Generalised Pareto Distribution.
 
 ## 😃  Historias de usuario
 
@@ -38,9 +41,15 @@ El formato para cada estudiante debe ser
 - **¿Qué haré hoy?**: _Enumerar foco de hoy (ej: "Integrar resultados descriptivos en el reporte y comenzar prueba de hipótesis")._
 - **¿Hay algo que me está bloqueando?**: _Listar obstáculos o dependencias (ej: "Falta confirmar el rango de años con PO" o "La librería X está dando un bug")._
 
+
 ##  Fecha: 2025-09-2025
 
 ### Gabriel Valverde:
+
+##  Fecha: YYYY-MM-DD
+
+### Estudiante A:
+
 - **¿Qué hice ayer?**:
 - **¿Qué haré hoy?**:
 - **¿Hay algo que me está bloqueando?**:
