@@ -2,8 +2,7 @@
 
 ## 🎯  Objetivo del Sprint:
 
-
- Agregar funciones que calculen el VaR y CVaR bajo la metodología POT + GPD.
+Agregar funciones que calculen el VaR y CVaR bajo la metodología POT + GPD.
 
 Calcular VaR y CVaR con la metodología Peaks Over Threshold y ajustar por Generalised Pareto Distribution.
 
