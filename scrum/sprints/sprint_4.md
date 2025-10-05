@@ -2,38 +2,33 @@
 
 ## 🎯  Objetivo del Sprint:
 
- _Declarar la meta del sprint en 1-2 frases (ej: "Tener datos limpios y un análisis descriptivo inicial completado")._
+ Agregar funciones que calculen el VaR y CVaR bajo la metodología POT + GPD.
 
 ## 😃  Historias de usuario
 
-- HU# - "Título de la Historia" (Estimación: Y pts) – *Criterios de aceptación confirmados.*
-- HU# - ...
-*(Listar las historias del backlog que el equipo se compromete a completar este sprint, con sus IDs y breve nombre.)*
-
-
+- HU23 - Generar gráficos de resultados (Estimación: 2.5 pts)
+- HU24 - Calcular Var y CVaR bajo metodología POT (Estimación 5 pts)
+- HU25 - Mejorar el Dashboard para incluir valores de VaR y CVaR (Estimación: 2.5 pts)
+- HU26 - Mejorar la documentación y arreglar errores bibliográficos (Estimación: 5 pts)  
+- HU27 - Generar una presentación en CANVA del progreso. (Estimación: 5 pts)
 
 ## 🔜  Plan de alto nivel:
-- *Semana 1:* _Tareas principales (ej: Ingesta de datos, Setup entorno CI)._
-- *Semana 2:* _Tareas principales (ej: Implementar modelo y validar, preparar demo)._
-
+- *Semana 1:* Discutir los temas a tratar y los issues.
+- *Semana 2:* Implementar las funciones y metodologías correspondientes. 
 
 ## 🥇  Criterios de aceptación del Sprint:
-- [ ] _Todas las historias listadas completadas y aceptadas por el profesor._
-- [ ] _El código limpia automáticamente la base de datos._
-
+- [ ] _Las funciones de VaR y CVaR bajo POT funcionan correctamente. 
 
 ## 📌  Asignación de tareas inicial
-- *Persona A:* Historia 1
-- *Persona B:* Historia 2
-- *Persona C:* documentación
+- *Gabriel Valverde Guzmán:* HU25, HU23 
+- *Dominick Rodríguez:* HU26
+- *Jeremy Flores:* HU27
+- *Cristhofer Urrutia:* HU24
 
 ## 🚫 Posibles bloqueos o impedimentos conocidos
 
-- **Bloqueo:** _No tenemos la base de datos limpia.
-- **Solución** _Crear una historia solo para limpiar la base de datos_.
-
-
-
+- **Bloqueo:** El tema puede ser complejo.
+- **Solución** Investigar más.
 
 # ⏳  Daily
 
@@ -43,45 +38,41 @@ El formato para cada estudiante debe ser
 - **¿Qué haré hoy?**: _Enumerar foco de hoy (ej: "Integrar resultados descriptivos en el reporte y comenzar prueba de hipótesis")._
 - **¿Hay algo que me está bloqueando?**: _Listar obstáculos o dependencias (ej: "Falta confirmar el rango de años con PO" o "La librería X está dando un bug")._
 
+##  Fecha: 2025-09-2025
 
-
-##  Fecha: YYYY-MM-DD
-
-### Estudiante A:
+### Gabriel Valverde:
 - **¿Qué hice ayer?**:
 - **¿Qué haré hoy?**:
 - **¿Hay algo que me está bloqueando?**:
 
-### Estudiante B:
+### Dominick Rodríguez:
 - **¿Qué hice ayer?**:
 - **¿Qué haré hoy?**:
 - **¿Hay algo que me está bloqueando?**:
 
-### Estudiante C:
+### Jeremy Flores:
 - **¿Qué hice ayer?**:
 - **¿Qué haré hoy?**:
 - **¿Hay algo que me está bloqueando?**:
 
-### Estudiante D:
-- **¿Qué hice ayer?**:
-- **¿Qué haré hoy?**:
-- **¿Hay algo que me está bloqueando?**:
+### Cristhofer Urrutia:
+- **¿Qué hice ayer?**: Investigar sobre la GPD. 
+- **¿Qué haré hoy?**: Tratar de implementar la función del CVaR. 
+- **¿Hay algo que me está bloqueando?**: No.
 
 
 
 # 🔍   Revisión en clase (Fecha: YYYY-MM-DD)
 
-
-
 ## 📈  Resultado mostrado
 
-- *Funcionalidad A:* (ej: "Carga automática de dataset desde CSV en base de datos completada").
-- *Funcionalidad B:* (ej: "Gráficos descriptivos generados dinámicamente").
+- *Funcionalidad A:* (Funciones de VaR y CVaR aplicadas correctamente.).
+- *Funcionalidad B:* (Gráficos descriptivos generados fácilmente.).
 
 
 ## :arrows_counterclockwise:  Retroalimentación
 
-- **Profesor**:
+- **Profesor**: 
 - **Compañeros:**
 
 
@@ -90,7 +81,7 @@ El formato para cada estudiante debe ser
 - [x] Carga automática de la base de datos.
 
 
-# 🔙  Retrospective – Fecha: YYYY-MM-DD
+# 🔙  Retrospective – Fecha: 2025-04-10
 
 ## :white_check_mark: Qué salió bien
 1.  _Colaboración en el equipo_ Logramos terminar el sprint a tiempo.
@@ -98,15 +89,10 @@ El formato para cada estudiante debe ser
 1.  Documentación actualizada al día evitó retrabajo luego.
 
 
-
 ## :no_good: Qué podría mejorar
 
-- _Gestión de tiempo en Daily:_ a veces se extendieron a 20 min discutiendo detalles innecesarios.
-- _Claridad de criterios de aceptación:_ En HU2 inicialmente no estaba claro cómo validar "datos limpios". Mejoraremos definición de *Done* para tareas de datos.
-- _Distribución de carga:_ Persona A quedó sobrecargada con 3 historias. El próximo sprint se equilibrará asignación más temprano.
+- _Nos falló el conocimiento en Pull Request para algunos commits._
 
 
 ## :pencil: Acciones concretas  para el próximo sprint
-1. **Timebox en Daily** – SM usará temporizador de 15 min y cortará discusiones largas, anotándolas para after.
-2. **Refinar historias en refinamiento semanal** – Agregar criterios de aceptación más detallados, especialmente para historias técnicas (como limpieza de datos).
-3. **Balancear asignación tareas** – Implementar mini-plan al inicio del sprint donde cada dev toma carga similar; SM monitoreará que nadie tenga >40% de tareas.
+1. _Mejorar la comprensión del tema._
