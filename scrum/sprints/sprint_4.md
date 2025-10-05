@@ -9,18 +9,18 @@
 - HU23 - Generar gráficos de resultados (Estimación: 2.5 pts)
 - HU24 - Calcular Var y CVaR bajo metodología POT (Estimación 5 pts)
 - HU25 - Mejorar el Dashboard para incluir valores de VaR y CVaR (Estimación: 2.5 pts)
-- HU26 - Mejorar la documentación y arreglar errores bibliográficos (Estimación: 5 pts)  
+- HU26 - Mejorar la documentación y arreglar errores bibliográficos (Estimación: 5 pts)
 - HU27 - Generar una presentación en CANVA del progreso. (Estimación: 5 pts)
 
 ## 🔜  Plan de alto nivel:
 - *Semana 1:* Discutir los temas a tratar y los issues.
-- *Semana 2:* Implementar las funciones y metodologías correspondientes. 
+- *Semana 2:* Implementar las funciones y metodologías correspondientes.
 
 ## 🥇  Criterios de aceptación del Sprint:
-- [ ] _Las funciones de VaR y CVaR bajo POT funcionan correctamente. 
+- [ ] _Las funciones de VaR y CVaR bajo POT funcionan correctamente.
 
 ## 📌  Asignación de tareas inicial
-- *Gabriel Valverde Guzmán:* HU25, HU23 
+- *Gabriel Valverde Guzmán:* HU25, HU23
 - *Dominick Rodríguez:* HU26
 - *Jeremy Flores:* HU27
 - *Cristhofer Urrutia:* HU24
@@ -56,8 +56,8 @@ El formato para cada estudiante debe ser
 - **¿Hay algo que me está bloqueando?**:
 
 ### Cristhofer Urrutia:
-- **¿Qué hice ayer?**: Investigar sobre la GPD. 
-- **¿Qué haré hoy?**: Tratar de implementar la función del CVaR. 
+- **¿Qué hice ayer?**: Investigar sobre la GPD.
+- **¿Qué haré hoy?**: Tratar de implementar la función del CVaR.
 - **¿Hay algo que me está bloqueando?**: No.
 
 
@@ -72,7 +72,7 @@ El formato para cada estudiante debe ser
 
 ## :arrows_counterclockwise:  Retroalimentación
 
-- **Profesor**: 
+- **Profesor**:
 - **Compañeros:**
 
 
