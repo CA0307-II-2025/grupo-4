@@ -37,23 +37,17 @@ Calcular VaR y CVaR con la metodología Peaks Over Threshold y ajustar por Gener
 
 # ⏳  Daily
 
-El formato para cada estudiante debe ser
+##  Fecha: 2025-09-22
 
-- **¿Qué hice ayer?**: _Describir brevemente las tareas completadas ayer, vinculadas a historias (ej: "Implementé la función de limpieza y escribí test para valores faltantes")._
-- **¿Qué haré hoy?**: _Enumerar foco de hoy (ej: "Integrar resultados descriptivos en el reporte y comenzar prueba de hipótesis")._
-- **¿Hay algo que me está bloqueando?**: _Listar obstáculos o dependencias (ej: "Falta confirmar el rango de años con PO" o "La librería X está dando un bug")._
+### Jeremy Flores Bonilla:
+- **¿Qué hice ayer?**: Se revisaron papers y articulos que usen la metodología de Peaks-Over-Threshold y de analisis de casos/valores extremos
+- **¿Qué haré hoy?**: Continuar con la investigación y recolectar la información en un documento de LaTeX
+- **¿Hay algo que me está bloqueando?**: No
 
-##  Fecha: YYYY-MM-DD
-
-### Estudiante A:
-- **¿Qué hice ayer?**:
-- **¿Qué haré hoy?**:
-- **¿Hay algo que me está bloqueando?**:
-
-### Estudiante B:
-- **¿Qué hice ayer?**:
-- **¿Qué haré hoy?**:
-- **¿Hay algo que me está bloqueando?**:
+### Dominick Rodríguez Trejos:
+- **¿Qué hice ayer?**: Revisión de lo que llevamos en el informe escrito, y corrección de algunos aspectos
+- **¿Qué haré hoy?**: Investigar acerca de la metodología que se va a aplicar (Peaks-Over-Threshold, Teoría de Valores Extremos)
+- **¿Hay algo que me está bloqueando?**: Algunas de las fuentes que se encontraron no son fáciles de entender.
 
 ### Estudiante C:
 - **¿Qué hice ayer?**:
@@ -65,7 +59,49 @@ El formato para cada estudiante debe ser
 - **¿Qué haré hoy?**:
 - **¿Hay algo que me está bloqueando?**:
 
+##  Fecha: 2025-09-26
 
+### Jeremy Flores Bonilla:
+- **¿Qué hice ayer?**: Contribuir con la investigación y redacción de la sección de Metodología.
+- **¿Qué haré hoy?**: Construir gráficos relevantes para el analisis de la base de datos.
+- **¿Hay algo que me está bloqueando?**: No
+
+### Dominick Rodríguez Trejos:
+- **¿Qué hice ayer?**: Se empezó la redacción de la sección de Metodología
+- **¿Qué haré hoy?**: Continuar con la redacción de la metodología
+- **¿Hay algo que me está bloqueando?**: No
+
+### Estudiante C:
+- **¿Qué hice ayer?**:
+- **¿Qué haré hoy?**:
+- **¿Hay algo que me está bloqueando?**:
+
+### Estudiante D:
+- **¿Qué hice ayer?**:
+- **¿Qué haré hoy?**:
+- **¿Hay algo que me está bloqueando?**:
+
+##  Fecha: 2025-10-04
+
+### Jeremy Flores Bonilla:
+- **¿Qué hice ayer?**: Revisar y corregir algunos aspectos del informe escrito.
+- **¿Qué haré hoy?**: Revisar el informe escrito preliminar, corregir y señalar errores, especificamente en la metodología.
+- **¿Hay algo que me está bloqueando?**: No
+
+### Dominick Rodríguez Trejos:
+- **¿Qué hice ayer?**: Finalizar la redacción de la metodología.
+- **¿Qué haré hoy?**: Revisar el informe escrito preliminar, corregir y señalar errores, especificamente en la metodología.
+- **¿Hay algo que me está bloqueando?**: No
+
+### Estudiante C:
+- **¿Qué hice ayer?**:
+- **¿Qué haré hoy?**:
+- **¿Hay algo que me está bloqueando?**:
+
+### Estudiante D:
+- **¿Qué hice ayer?**:
+- **¿Qué haré hoy?**:
+- **¿Hay algo que me está bloqueando?**:
 
 # 🔍   Revisión en clase (Fecha: YYYY-MM-DD)
 
