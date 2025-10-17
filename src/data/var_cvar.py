@@ -5,6 +5,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 from scipy.stats import genpareto
 from scipy.stats import kstest
+from statsmodels.nonparametric.kernel_density import KDEMultivariate
 
 
 class var_cvar(inferencia):
@@ -135,7 +136,14 @@ class var_cvar(inferencia):
 
         xi, sigma, threshold = dic_gpd["xi"], dic_gpd["sigma"], dic_gpd["threshold"]
 
-        pu = float(np.mean(x <= u))
+        x = np.asarray(x).ravel()
+        X = x[:, None]
+        kde = KDEMultivariate(data=X, var_type="c", bw="cv_ls")
+        h = float(kde.bw[0])
+
+        pu = float(kde.cdf([u]))
+
+        pu = np.mean(norm.cdf((u - x) / h))
 
         VaR = threshold - (sigma / xi) * ((((1 - alpha) / pu) ** -xi) - 1)
 
