@@ -6,7 +6,7 @@ Calcular VaR y CVaR con la metodología Peaks Over Threshold y ajustar por Gener
 
 ## 😃  Historias de usuario
 
-- HU23 - Mejorar la documentación y agregar metodología POT (Estimación: 5 pts) – 
+- HU23 - Mejorar la documentación y agregar metodología POT (Estimación: 5 pts) –
 - HU24 - Mejorar el Dashboard y añadir funcionalidades acorde a la metdología (Estimación 5 pts) -
 - HU25 - Añadir código de funciones que calculen el VaR y CVaR bajo metodología POT (Estimación 5 pts)
 - HU26 - Realizar la presentación e informe de los resutlados (Estimación 5 pts)
@@ -29,7 +29,7 @@ Calcular VaR y CVaR con la metodología Peaks Over Threshold y ajustar por Gener
 
 ## 🚫 Posibles bloqueos o impedimentos conocidos
 
-- **Bloqueo:** El tema puede ser complejo. 
+- **Bloqueo:** El tema puede ser complejo.
 - **Solución** Buscar papers donde se aplique.
 
 # ⏳  Daily
@@ -76,7 +76,7 @@ Calcular VaR y CVaR con la metodología Peaks Over Threshold y ajustar por Gener
 ### Cristhofer Urrutia Cascante:
 - **¿Qué hice ayer?**: Investigar sobre POT y GPD.
 - **¿Qué haré hoy?**: Implementar las funciones correspondientes.
-- **¿Hay algo que me está bloqueando?**: No. 
+- **¿Hay algo que me está bloqueando?**: No.
 
 ##  Fecha: 2025-10-04
 
@@ -93,12 +93,12 @@ Calcular VaR y CVaR con la metodología Peaks Over Threshold y ajustar por Gener
 ### Gabriel Valverde Guzmán:
 - **¿Qué hice ayer?**: Apoyar en la redacción de la metodología.
 - **¿Qué haré hoy?**: Implementar correctamente el dashboard.
-- **¿Hay algo que me está bloqueando?**: No. 
+- **¿Hay algo que me está bloqueando?**: No.
 
 ### Cristhofer Urrutia Cascante:
 - **¿Qué hice ayer?**: Apoyar en la redacción de la metodología.
 - **¿Qué haré hoy?**: Obtener resultados.
-- **¿Hay algo que me está bloqueando?**: No. 
+- **¿Hay algo que me está bloqueando?**: No.
 
 # 🔍   Revisión en clase (Fecha: 2025-10-03)
 
