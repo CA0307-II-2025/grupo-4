@@ -41,12 +41,16 @@ class var_cvar(inferencia):
 
         return {"VaR": var, "CVaR": cvar}
 
-    def cola_izquierda(self, empresa: str, graficar=False, q=0.05):
+    def cola_izquierda(self, empresa: str, graficar, q=0.05):
         umbral = np.quantile(self.rendimientos_diarios()[empresa], q)
 
-        cola = self.rendimientos_diarios()[
-            self.rendimientos_diarios()[empresa] <= umbral
-        ]
+        emp = self.rendimientos_diarios()[empresa]
+
+        cola = emp[emp <= umbral]
+
+        # cola = self.rendimientos_diarios()[
+        #   self.rendimientos_diarios()[empresa] <= umbral
+        # ]
 
         if graficar:
             plt.figure(figsize=(10, 5))
