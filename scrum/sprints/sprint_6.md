@@ -31,84 +31,126 @@ Implementar el modelo y métodos creados en los sprints anteriores en un caso de
 
 ## 🚫 Posibles bloqueos o impedimentos conocidos
 
-- **Bloqueo:** _No tenemos la base de datos limpia.
-- **Solución** _Crear una historia solo para limpiar la base de datos_.
+- **Bloqueo:** Necesitamos estimar la probabilidad de que una observación se encuentre por debajo del Treshold de POT para hacer los cálculos de VaR y CVaR.
+- **Solución** Estimar esta probabilidad por medio de estimación de densidad por Kernels.
 
 
 
 
 # ⏳  Daily
 
-El formato para cada estudiante debe ser
+##  Fecha: 2025-10-20
 
-- **¿Qué hice ayer?**: _Describir brevemente las tareas completadas ayer, vinculadas a historias (ej: "Implementé la función de limpieza y escribí test para valores faltantes")._
-- **¿Qué haré hoy?**: _Enumerar foco de hoy (ej: "Integrar resultados descriptivos en el reporte y comenzar prueba de hipótesis")._
-- **¿Hay algo que me está bloqueando?**: _Listar obstáculos o dependencias (ej: "Falta confirmar el rango de años con PO" o "La librería X está dando un bug")._
+### Jeremy Flores:
+- **¿Qué hice ayer?**: Revisión de la metodología.
+- **¿Qué haré hoy?**: Continuar con la revisión de la metodología y corrección de los errores encontrados.
+- **¿Hay algo que me está bloqueando?**: No.
+
+### Dominick Rodríguez:
+- **¿Qué hice ayer?**: Asignar las tareas a realizar para el sexto sprint.
+- **¿Qué haré hoy?**: Investigar acerca de las posibles opciones de inversión a comparar en el caso de estudio.
+- **¿Hay algo que me está bloqueando?**: No.
+
+### Cristhofer Urrutia:
+- **¿Qué hice ayer?**: Trabajar en el script para la estimación de la probabilidad de que una observación se encuentre por debajo del Treshold de POT.
+- **¿Qué haré hoy?**: Continuar el trabajo del día anterior.
+- **¿Hay algo que me está bloqueando?**: No.
+
+### Gabriel Valverde:
+- **¿Qué hice ayer?**: Revisión del dashboard
+- **¿Qué haré hoy?**: Aplicar innovaciones al dashboard.
+- **¿Hay algo que me está bloqueando?**: No.
+
+##  Fecha: 2025-10-25
+
+### Jeremy Flores:
+- **¿Qué hice ayer?**: Finalizar la revisión de la metodología.
+- **¿Qué haré hoy?**: Iniciar el trabajo en el caso de estudio SPY-QQQ.
+- **¿Hay algo que me está bloqueando?**: No.
+
+### Dominick Rodríguez:
+- **¿Qué hice ayer?**: Finalizar la investigación de las opciones de inversión a considerar para el caso de estudio.
+- **¿Qué haré hoy?**: Redactar una subsección de los Resultados donde se decriba el caso de estudio y las opciones de inversión elegidas.
+- **¿Hay algo que me está bloqueando?**: No.
+
+### Cristhofer Urrutia:
+- **¿Qué hice ayer?**: Finalizar el script para la estimación de la probabilidad de que una observación se encuentre por debajo del Treshold de POT
+- **¿Qué haré hoy?**: Iniciar el trabajo en el caso de estudio SPY-QQQ.
+- **¿Hay algo que me está bloqueando?**: No.
+
+### Gabriel Valverde:
+- **¿Qué hice ayer?**: Actualizar el dashboard.
+- **¿Qué haré hoy?**: Continuar con el trabajo en el dashboard y con la sección de Resultados.
+- **¿Hay algo que me está bloqueando?**: No.
+
+##  Fecha: 2025-10-30
+
+### Jeremy Flores:
+- **¿Qué hice ayer?**: Finalizar el trabajo en el caso de estudio SPY-QQQ.
+- **¿Qué haré hoy?**: Recolectar los resultados obtenidos del caso de estudio y generar los gráficos relevantes.
+- **¿Hay algo que me está bloqueando?**: No.
+
+### Dominick Rodríguez:
+- **¿Qué hice ayer?**: Iniciar la redacción de la sección de Resultados.
+- **¿Qué haré hoy?**: Continuar y finalizar la redacción de la sección de Resultados.
+- **¿Hay algo que me está bloqueando?**: No.
+
+### Cristhofer Urrutia:
+- **¿Qué hice ayer?**: Finalizar el trabajo en el caso de estudio SPY-QQQ.
+- **¿Qué haré hoy?**: Recolectar los resultados obtenidos del caso de estudio y generar los gráficos relevantes.
+- **¿Hay algo que me está bloqueando?**: No.
+
+### Gabriel Valverde:
+- **¿Qué hice ayer?**: Ayudar con la redacción de la sección de Resultados.
+- **¿Qué haré hoy?**: Hacer implementaciones nuevas al dashboard para incluir los hallazgos del sprint.
+- **¿Hay algo que me está bloqueando?**: No.
+
+##  Fecha: 2025-10-31
+
+### Todos los integrantes:
+- **¿Qué hice ayer?**: Recoletar y describir los resultados obtenidos del caso de estudio.
+- **¿Qué haré hoy?**: Interpretar los resultados obtenidos y agregar esta interpretación de los resultados al documento
+- **¿Hay algo que me está bloqueando?**: No.
 
 
 
-##  Fecha: YYYY-MM-DD
+# 🔍   Revisión en clase (Fecha: 2025-11-14)
 
-### Estudiante A:
-- **¿Qué hice ayer?**:
-- **¿Qué haré hoy?**:
-- **¿Hay algo que me está bloqueando?**:
-
-### Estudiante B:
-- **¿Qué hice ayer?**:
-- **¿Qué haré hoy?**:
-- **¿Hay algo que me está bloqueando?**:
-
-### Estudiante C:
-- **¿Qué hice ayer?**:
-- **¿Qué haré hoy?**:
-- **¿Hay algo que me está bloqueando?**:
-
-### Estudiante D:
-- **¿Qué hice ayer?**:
-- **¿Qué haré hoy?**:
-- **¿Hay algo que me está bloqueando?**:
-
-
-
-# 🔍   Revisión en clase (Fecha: YYYY-MM-DD)
-
-
+Se realiza la exposición del trabajo realizado durante el Sprint y de los resultados/hallazgos obtenidos durante el Sprint
 
 ## 📈  Resultado mostrado
 
-- *Funcionalidad A:* (ej: "Carga automática de dataset desde CSV en base de datos completada").
-- *Funcionalidad B:* (ej: "Gráficos descriptivos generados dinámicamente").
+- *Caso de estudio SPY-QQQ:* El caso de estudio se completo y se recolectaron los resultados relevantes.
+- *Interpretación de los resultados:* Se hizo una interpretación de los resultados obtenidos del caso de estudio.
+- *Avances en el dashboard:* Las actualizaciones en el dashboard permiten simular el caso de estudio realizado en este Sprint.
 
 
 ## :arrows_counterclockwise:  Retroalimentación
 
-- **Profesor**:
-- **Compañeros:**
+- **Profesor**: Sugiere realizar varias pruebas distintas para confirmar si los excedentes se comportan similarmente a la distribución GPD, como el test Anderson-Darling.
+- **Compañeros:** No se recibio retroalimentación de parte de los compañeros.
 
 
 ## ✔️  Criterios de aceptación cumplidos:
-- [] _Historias 1, 2, 3. completadas. Falta la historia 4.
-- [x] Carga automática de la base de datos.
+- [✔] _Historias de usuario completadas
+- [✔] Caso de estudio SPY-QQQ completado.
+- [✔] Sección de resultados obtenidos redactada
 
 
-# 🔙  Retrospective – Fecha: YYYY-MM-DD
+# 🔙  Retrospective – Fecha: 2025-10-14
 
 ## :white_check_mark: Qué salió bien
-1.  _Colaboración en el equipo_ Logramos terminar el sprint a tiempo.
-1.  _Usamos commits convencionales correctamente y no hubo errores_
-1.  Documentación actualizada al día evitó retrabajo luego.
-
+1. Se completo el caso de estudio propuesto al inicio del Sprint.
+2. La interpretación de los resultados obtenidos es concisa y detallada.
+3. Grandes avances en el dashboard.
 
 
 ## :no_good: Qué podría mejorar
 
-- _Gestión de tiempo en Daily:_ a veces se extendieron a 20 min discutiendo detalles innecesarios.
-- _Claridad de criterios de aceptación:_ En HU2 inicialmente no estaba claro cómo validar "datos limpios". Mejoraremos definición de *Done* para tareas de datos.
-- _Distribución de carga:_ Persona A quedó sobrecargada con 3 historias. El próximo sprint se equilibrará asignación más temprano.
+1. Gestión del Daily y relleno del reporte del Sprint
+2. Mejorar el trabajo con el repositorio, mantener el backlog y current sprint actualizado.
 
 
 ## :pencil: Acciones concretas  para el próximo sprint
-1. **Timebox en Daily** – SM usará temporizador de 15 min y cortará discusiones largas, anotándolas para after.
-2. **Refinar historias en refinamiento semanal** – Agregar criterios de aceptación más detallados, especialmente para historias técnicas (como limpieza de datos).
-3. **Balancear asignación tareas** – Implementar mini-plan al inicio del sprint donde cada dev toma carga similar; SM monitoreará que nadie tenga >40% de tareas.
+1. Aplicar la retroalimentación recibida haciendo más pruebas para confirmar que la distribución GPD es similar a la de los datos.
+2. Realizar el analisis con más de dos opciones de inversión.
