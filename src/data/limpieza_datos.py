@@ -150,7 +150,7 @@ class limpieza_datos:
             bins=70,
             kde=False,
             color="navy",
-            alpha=0.73,
+            alpha=0.5,
             edgecolor="black",
         )
         lim = max(abs(retornos_historicos.min()), abs(retornos_historicos.max()))
