@@ -136,7 +136,9 @@ Se busca establecer un planteamiento para el proyecto, esto incluye expresar la 
 
 # 🔍   Revisión en clase (Fecha: 2025-09-05)
 
+Se hace la presentación de lo desarrollado en el Sprint 2.
 
+Se recibe retroalimentación de parte del profesor, especificamente acerca de la metodología a implementar.
 
 ## 📈  Resultado mostrado
 
@@ -148,8 +150,8 @@ Se busca establecer un planteamiento para el proyecto, esto incluye expresar la 
 
 ## :arrows_counterclockwise:  Retroalimentación
 
-- **Profesor**:
-- **Compañeros:**
+- **Profesor**: Indica que la metodología a seguir debe definirse concretamente, nos recomienda tener una reunión en los siguientes días para definir exactamente la que se va a implementar para luego reunirnos con él el próximo martes después de clases para confirmar si la propuesta es aceptable
+- **Compañeros:** No se recibe retroalimentación de los demás compañeros.
 
 
 ## ✔️  Criterios de aceptación cumplidos:
@@ -157,23 +159,23 @@ Se busca establecer un planteamiento para el proyecto, esto incluye expresar la 
 - [✔] _El documento de planteamiento del proyecto finalizado._
 
 
-# 🔙  Retrospective – Fecha: 2025-09-06
+# 🔙  Retrospective – Fecha: 2025-09-05
 
 ## :white_check_mark: Qué salió bien
-1.  _Colaboración en el equipo_ Logramos terminar el sprint a tiempo.
-1.  _Se hicieron avances en el modelo que se utilizara para optimizar los portafolios de inversión_
-1.  Documentación actualizada al día evitó retrabajo luego.
+1. _Se finalizó la redacción del documento de planteamiento del proyecto a tiempo_
+2.  _Se hicieron avances en el modelo que se utilizara para optimizar los portafolios de inversión_
+3.  _Logramos familiarizarnos más con la metodología de trabajo Scrum y se da un mejor manejo del Sprint y Backlog_
 
 
 
 ## :no_good: Qué podría mejorar
 
-- _Gestión de tiempo en Daily:_ a veces se extendieron a 20 min discutiendo detalles innecesarios.
-- _Claridad de criterios de aceptación:_ En HU2 inicialmente no estaba claro cómo validar "datos limpios". Mejoraremos definición de *Done* para tareas de datos.
-- _Distribución de carga:_ Persona A quedó sobrecargada con 3 historias. El próximo sprint se equilibrará asignación más temprano.
+- _Gestión del Daily:_ actualizar el reporte del sprint con los reportes del Daily con más frecuencia
+- _Mejor manejo del Backlog y Sprint:_ acostumbrarnos incluso más al manejor de las historias/tareas de usuario, para mejorar la coordinación y productividad
+- _Definición de la metodología:_ aclarar la metodología a seguir durante el proyecto.
 
 
 ## :pencil: Acciones concretas  para el próximo sprint
 1. **Continuar con el trabajo del modelo para optimizar portafolios** – Especificamente el cálculo de VaR y CVaR para un portafolio completo.
 2. **Buscar más fuentes que toquen temas de optimización de portafolios** – Hacer un poco más de investigación en temas de optimización de portafolios, con el objetivo de entender como otros autores han trabajado este tema.
-3. **Balancear asignación tareas** – Implementar mini-plan al inicio del sprint donde cada dev toma carga similar; SM monitoreará que nadie tenga >40% de tareas.
+3. **Implementar la retroalimentación recibida en esta entrega** - Hacer las revisiones y correcciones necesarias con el objetivo de mejorar el proyecto.

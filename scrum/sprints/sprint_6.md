@@ -2,30 +2,32 @@
 
 ## 🎯  Objetivo del Sprint:
 
- _Declarar la meta del sprint en 1-2 frases (ej: "Tener datos limpios y un análisis descriptivo inicial completado")._
+Implementar el modelo y métodos creados en los sprints anteriores en un caso de estudio especifico, recolectar los resultados obtenidos de este e interpretarlos. Además, redactar la sección de Resultados del informe donde se describa el caso de estudio, se incluyan los resultados otenidos y el análisis de estos.
 
 ## 😃  Historias de usuario
 
-- HU# - "Título de la Historia" (Estimación: Y pts) – *Criterios de aceptación confirmados.*
-- HU# - ...
-*(Listar las historias del backlog que el equipo se compromete a completar este sprint, con sus IDs y breve nombre.)*
-
-
+- HU #55 - "Como investigador quiero finalizar la sección de Metodología del documento escrito" (Estimación: 3 pts) – *Criterios de aceptación confirmados.*
+- HU #56 - "Como analista de datos, quiero realizar un caso de estudio donde se determine las mejores decisiones de inversión" (Estimación: 5 pts) – *Criterios de aceptación confirmados.*
+- HU #57 - "Como cientifico de datos, voy a actualizar el dashboard del proyecto con los resultados y hallazgos relevantes obtenidos para esta entrega" (Estimación: 5 pts) – *Criterios de aceptación confirmados.*
+- HU #59 - "Como miembro del equipo, voy a realizar la presentación de la entrega del Sprint 6" (Estimación: 3 pts) – *Criterios de aceptación confirmados.*
+- HU #60 - "Como investigadores, vamos a redactar la sección de resultados obtenidos" (Estimación: 5 pts) – *Criterios de aceptación confirmados.*
 
 ## 🔜  Plan de alto nivel:
-- *Semana 1:* _Tareas principales (ej: Ingesta de datos, Setup entorno CI)._
-- *Semana 2:* _Tareas principales (ej: Implementar modelo y validar, preparar demo)._
+- *Semana 1:* Finalizar la metodología e iniciar el formato del caso de estudio, elegir las empresas/fondos a considerar, las fechas de los rendimientos y demás.
+- *Semana 2:* Hacer el caso de estudio, recolectar los resultados y redactar una sección donde se describa el caso de estudio, los resultados y la interpretación de los mismos.
 
 
 ## 🥇  Criterios de aceptación del Sprint:
-- [ ] _Todas las historias listadas completadas y aceptadas por el profesor._
-- [ ] _El código limpia automáticamente la base de datos._
+- [✔] _Todas las historias listadas completadas y aceptadas por el profesor._
+- [✔] _El caso de estudio se completo._
+- [✔] _Se agrega la sección de resultados al documento escrito._
 
 
 ## 📌  Asignación de tareas inicial
-- *Persona A:* Historia 1
-- *Persona B:* Historia 2
-- *Persona C:* documentación
+- *Jeremy Flores:* HU#56 y HU#60
+- *Dominick Rodríguez:* HU#55, HU#59 y HU#60
+- *Cristhofer Urrutia:* HU#56 y HU#60
+- *Gabriel Valverde:* HU#58 y HU#60
 
 ## 🚫 Posibles bloqueos o impedimentos conocidos
 
