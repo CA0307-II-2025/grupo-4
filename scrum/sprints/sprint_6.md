@@ -132,7 +132,7 @@ Se realiza la exposición del trabajo realizado durante el Sprint y de los resul
 
 
 ## ✔️  Criterios de aceptación cumplidos:
-- [✔] _Historias de usuario completadas
+- [✔] Historias de usuario completadas
 - [✔] Caso de estudio SPY-QQQ completado.
 - [✔] Sección de resultados obtenidos redactada
 
