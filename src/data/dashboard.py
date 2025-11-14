@@ -27,7 +27,7 @@ st.markdown("Este panel permite analizar rendimientos, pruebas de normalidad y e
 st.sidebar.header("Configuración del análisis")
 
 empresas = st.sidebar.text_input(
-    "Ingrese los símbolos (separados por comas)", "BND"
+    "Ingrese los símbolos (separados por comas)", "BND,TSLA,AAPL,MSFT,GOOG,SPY,BTC-USD"
 ).split(",")
 
 empresas = [e.strip().upper() for e in empresas if e.strip() != ""]
