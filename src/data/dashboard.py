@@ -2,10 +2,8 @@
 import streamlit as st
 import matplotlib.pyplot as plt
 from datetime import date
-import seaborn as sns
+
 # Importar clases desde los módulos
-from limpieza_datos import limpieza_datos
-from inferencia import inferencia
 from var_cvar import var_cvar
 import io
 
@@ -19,7 +17,9 @@ st.set_page_config(
 )
 
 st.title("Dashboard de Análisis Financiero")
-st.markdown("Este panel permite analizar rendimientos, pruebas de normalidad y el cálculo del VaR y CVaR para activos seleccionados.")
+st.markdown(
+    "Este panel permite analizar rendimientos, pruebas de normalidad y el cálculo del VaR y CVaR para activos seleccionados."
+)
 
 # -------------------------------------------------------------------
 # Entradas de usuario
@@ -36,9 +36,8 @@ fecha_inicio = st.sidebar.date_input("Fecha de inicio AA/MM/DD", date(2022, 1, 1
 fecha_fin = st.sidebar.date_input("Fecha de fin AA/MM/DD", date.today())
 
 
-#alpha = st.sidebar.slider("Nivel de significancia (α)", 0.0, 0.50, 0.001)
+# alpha = st.sidebar.slider("Nivel de significancia (α)", 0.0, 0.50, 0.001)
 conf = st.sidebar.slider("Nivel de confianza para VaR/CVaR", 0.9, 0.99, 0.05)
-
 
 
 # Inicialización de objetos
@@ -84,10 +83,10 @@ elif analisis == "VaR y CVaR (Normal)":
     try:
         resultados = modelo.var_cvar_normal(empresa, graficar=True)
         st.pyplot(plt.gcf())
-        #st.markdown(f"**VaR ({conf*100:.1f}%):** {resultados['VaR']:.4f}")
-        st.latex(f"VaR({conf*100:.1f}\%) = {resultados['VaR']:.4f}")
-        #st.markdown(f"**CVaR ({conf*100:.1f}%):** {resultados['CVaR']:.4f}")
-        st.latex(f"CVaR ({conf*100:.1f}\%)= {resultados['CVaR']:.4f}")
+        # st.markdown(f"**VaR ({conf*100:.1f}%):** {resultados['VaR']:.4f}")
+        st.latex(f"VaR({conf * 100:.1f}\%) = {resultados['VaR']:.4f}")
+        # st.markdown(f"**CVaR ({conf*100:.1f}%):** {resultados['CVaR']:.4f}")
+        st.latex(f"CVaR ({conf * 100:.1f}\%)= {resultados['CVaR']:.4f}")
     except Exception as e:
         st.error(f"No fue posible calcular VaR/CVaR: {e}")
 
@@ -99,7 +98,7 @@ elif analisis == "VaR y CVaR (Normal)":
         label="Descargar Gráfico",
         data=buffer,
         file_name=f"{empresa}_{analisis}.png",
-        mime="image/png"
+        mime="image/png",
     )
 
 
