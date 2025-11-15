@@ -2,111 +2,82 @@
 
 ## 🎯  Objetivo del Sprint:
 
- _Declarar la meta del sprint en 1-2 frases (ej: "Tener datos limpios y un análisis descriptivo inicial completado")._
+ _Adelantar el trabajo escrito de cara a finalizarlo próximamente y trabajar detalles de la programación._
 
 ## 😃  Historias de usuario
 
-- HU# - "Título de la Historia" (Estimación: Y pts) – *Criterios de aceptación confirmados.*
-- HU# - ...
-*(Listar las historias del backlog que el equipo se compromete a completar este sprint, con sus IDs y breve nombre.)*
+- HU#50 - "Como analista de datos, quiero generar un script de la prueba de Kolmogorov-Smirnov para verificar distribuciones" (Estimación: 4 pts) – *Criterios de aceptación confirmados.*
+- HU#51 - "Como analista de datos, quiero generar un script de estimación de distribución por Kernels Gaussianos" (Estimación: 4pts) - *Criterios de aceptación confirmados.*
+- HU#52 - "Como Investigador, voy a añadir al documento del trabajo trabajos, artículos y bibliografía sobre las distribuciones de Pareto y su aplicación en el proyecto" (Estimación: 3pts) - *Criterios de aceptación confirmados.*
 
 
 
 ## 🔜  Plan de alto nivel:
-- *Semana 1:* _Tareas principales (ej: Ingesta de datos, Setup entorno CI)._
-- *Semana 2:* _Tareas principales (ej: Implementar modelo y validar, preparar demo)._
+- *Semana 1:* _HU#50 y HU#51_
+- *Semana 2:* _HU#51 y HU#52_
 
 
 ## 🥇  Criterios de aceptación del Sprint:
 - [ ] _Todas las historias listadas completadas y aceptadas por el profesor._
-- [ ] _El código limpia automáticamente la base de datos._
+- [ ] _El código analiza las distribuciones de los datos por medio de KS-test._
+- [ ] _El código genera estimaciones por Kernels Gaussianos._
+- [ ] _Investigación de la documentación prácticamente terminada._
+- [ ] _Dashboard listo para la utilización del usuario._
 
 
 ## 📌  Asignación de tareas inicial
-- *Persona A:* Historia 1
-- *Persona B:* Historia 2
-- *Persona C:* documentación
-
-## 🚫 Posibles bloqueos o impedimentos conocidos
-
-- **Bloqueo:** _No tenemos la base de datos limpia.
-- **Solución** _Crear una historia solo para limpiar la base de datos_.
-
+- *Cristhofer:* Historia 51
+- *Dominick:* Historia 50
+- *Jeremy:* Documentación
+- *Gabriel:* Dashboard (continuación de historia de un sprint anterior)
 
 
 
 # ⏳  Daily
 
-El formato para cada estudiante debe ser
+##  Fecha: 2025-10-14
 
-- **¿Qué hice ayer?**: _Describir brevemente las tareas completadas ayer, vinculadas a historias (ej: "Implementé la función de limpieza y escribí test para valores faltantes")._
-- **¿Qué haré hoy?**: _Enumerar foco de hoy (ej: "Integrar resultados descriptivos en el reporte y comenzar prueba de hipótesis")._
-- **¿Hay algo que me está bloqueando?**: _Listar obstáculos o dependencias (ej: "Falta confirmar el rango de años con PO" o "La librería X está dando un bug")._
+### Cristhofer:
+- **¿Qué hice ayer?**: Empecé a trabajar en los Kernels Gaussianos.
+- **¿Qué haré hoy?**: Terminar el método de estimación de los Kernels.
+- **¿Hay algo que me está bloqueando?**: No de momento.
 
+### Dominick:
+- **¿Qué hice ayer?**: Busqué cómo se aplica la metodología del KS-Test.
+- **¿Qué haré hoy?**: Aplicaré lo investigado en el Script.
+- **¿Hay algo que me está bloqueando?**: No de momento.
 
+### Jeremy:
+- **¿Qué hice ayer?**: Busqué documentos e implementé información valiosa en el documento del trabajo.
+- **¿Qué haré hoy?**: Busqué documentos e implementé información valiosa en el documento del trabajo.
+- **¿Hay algo que me está bloqueando?**: No de momento.
 
-##  Fecha: YYYY-MM-DD
-
-### Estudiante A:
-- **¿Qué hice ayer?**:
-- **¿Qué haré hoy?**:
-- **¿Hay algo que me está bloqueando?**:
-
-### Estudiante B:
-- **¿Qué hice ayer?**:
-- **¿Qué haré hoy?**:
-- **¿Hay algo que me está bloqueando?**:
-
-### Estudiante C:
-- **¿Qué hice ayer?**:
-- **¿Qué haré hoy?**:
-- **¿Hay algo que me está bloqueando?**:
-
-### Estudiante D:
-- **¿Qué hice ayer?**:
-- **¿Qué haré hoy?**:
-- **¿Hay algo que me está bloqueando?**:
-
+### Gabriel:
+- **¿Qué hice ayer?**: Volví a leer la documentación de Streamlit para pensar en qué añadir al dashboard.
+- **¿Qué haré hoy?**: Implementar algunas funciones nuevas al Dashboard.
+- **¿Hay algo que me está bloqueando?**: No de momento.
 
 
 # 🔍   Revisión en clase (Fecha: YYYY-MM-DD)
-
+El profesor en la clase virtual nos comentó que todo estaba bien encaminado. Sólo nos propuso trabajar un poco más el tema de las distribuciones de Pareto para la prueba del VaR y CVaR.
 
 
 ## 📈  Resultado mostrado
 
-- *Funcionalidad A:* (ej: "Carga automática de dataset desde CSV en base de datos completada").
-- *Funcionalidad B:* (ej: "Gráficos descriptivos generados dinámicamente").
-
-
-## :arrows_counterclockwise:  Retroalimentación
-
-- **Profesor**:
-- **Compañeros:**
+- *Funcionalidad A:* Estimación de la distribución Normal de los datos a partir de los scripts generados.
+- *Funcionalidad B:* Dashboard totalmente funcional con experiencia de usuario práctica y sencilla.
 
 
 ## ✔️  Criterios de aceptación cumplidos:
-- [] _Historias 1, 2, 3. completadas. Falta la historia 4.
-- [x] Carga automática de la base de datos.
-
-
-# 🔙  Retrospective – Fecha: YYYY-MM-DD
-
-## :white_check_mark: Qué salió bien
-1.  _Colaboración en el equipo_ Logramos terminar el sprint a tiempo.
-1.  _Usamos commits convencionales correctamente y no hubo errores_
-1.  Documentación actualizada al día evitó retrabajo luego.
+- [] _Historias 50,v51, 52,vcompletadas. 
 
 
 
 ## :no_good: Qué podría mejorar
 
-- _Gestión de tiempo en Daily:_ a veces se extendieron a 20 min discutiendo detalles innecesarios.
-- _Claridad de criterios de aceptación:_ En HU2 inicialmente no estaba claro cómo validar "datos limpios". Mejoraremos definición de *Done* para tareas de datos.
-- _Distribución de carga:_ Persona A quedó sobrecargada con 3 historias. El próximo sprint se equilibrará asignación más temprano.
+- _Gestión de tiempo en Daily:_ a veces no nos reuníamos por temas del semestre.
 
 
 ## :pencil: Acciones concretas  para el próximo sprint
-1. **Timebox en Daily** – SM usará temporizador de 15 min y cortará discusiones largas, anotándolas para after.
-2. **Refinar historias en refinamiento semanal** – Agregar criterios de aceptación más detallados, especialmente para historias técnicas (como limpieza de datos).
-3. **Balancear asignación tareas** – Implementar mini-plan al inicio del sprint donde cada dev toma carga similar; SM monitoreará que nadie tenga >40% de tareas.
+1. Terminar el trabajo escrito
+2. Detalles finales de los scripts principalmente en las retroalimentaciones.
