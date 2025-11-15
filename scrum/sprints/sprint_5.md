@@ -69,7 +69,7 @@ El profesor en la clase virtual nos comentó que todo estaba bien encaminado. S�
 
 
 ## ✔️  Criterios de aceptación cumplidos:
-- [] _Historias 50,v51, 52,vcompletadas. 
+- [] _Historias 50,v51, 52,vcompletadas.
 
 
 
