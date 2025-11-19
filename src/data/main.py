@@ -54,3 +54,5 @@ analisis_etfs_var_cvar.pareto_generalizada("QQQ", q, True)
 
 # Obtenemos VaR y CVaR al alpha = 0.05
 analisis_etfs_var_cvar.var_cvar_gpd("SPY", 0.95, 0.1)
+
+analisis_etfs_var_cvar.pruebas("SPY", q, "ad")
