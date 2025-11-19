@@ -48,10 +48,6 @@ class var_cvar(inferencia):
 
         cola = emp[emp <= umbral]
 
-        # cola = self.rendimientos_diarios()[
-        #   self.rendimientos_diarios()[empresa] <= umbral
-        # ]
-
         if graficar:
             plt.figure(figsize=(10, 5))
             sns.histplot(cola, bins=50, kde=False, color="navy", alpha=0.7)
@@ -154,3 +150,71 @@ class var_cvar(inferencia):
         CVaR = VaR - (sigma - xi * (VaR - threshold)) / (1 - xi)
 
         return VaR, CVaR, threshold, xi
+
+    def pruebas(self, empresa, q: float, test: str):
+        x = self.rendimientos_diarios()[empresa].astype(float).to_numpy()
+
+        u = np.quantile(x, q)
+
+        excedentes = u - self.cola_izquierda(empresa, False, q)
+
+        shape, loc_hat, scale = genpareto.fit(excedentes, floc=0.0)
+
+        n = len(excedentes)
+
+        if test == "ks":
+            d, p_value = kstest(
+                excedentes, lambda y: genpareto.cdf(y, shape, loc=0.0, scale=scale)
+            )
+            return p_value
+
+        n_bootstrap = 2000
+        rng = np.random.default_rng(42)
+
+        def ad_stat(sample, c, s):
+            """Estadístico Anderson–Darling para GPD con parámetros (c, s)."""
+            sample = np.sort(sample)
+            n_ = sample.size
+            uvals = genpareto.cdf(sample, c, loc=0.0, scale=s)
+            eps = 1e-12
+            uvals = np.clip(uvals, eps, 1 - eps)
+            i = np.arange(1, n_ + 1)
+            A2 = -n_ - (1.0 / n_) * np.sum(
+                (2 * i - 1) * (np.log(uvals) + np.log(1 - uvals[::-1]))
+            )
+            return A2
+
+        def cvm_stat(sample, c, s):
+            """Estadístico Cramér–von Mises para GPD con parámetros (c, s)."""
+            sample = np.sort(sample)
+            n_ = sample.size
+            uvals = genpareto.cdf(sample, c, loc=0.0, scale=s)
+            i = np.arange(1, n_ + 1)
+            ui = (2 * i - 1) / (2.0 * n_)
+            W2 = np.sum((uvals - ui) ** 2) + 1.0 / (12 * n_)
+            return W2
+
+        if test == "ad":
+            stat_obs = ad_stat(excedentes, shape, scale)
+
+        elif test == "cvm":
+            stat_obs = cvm_stat(excedentes, shape, scale)
+
+        else:
+            raise ValueError(f"Test '{test}' no reconocido. Usa 'ks', 'ad' o 'cvm'.")
+
+        stats_boot = np.empty(n_bootstrap)
+
+        for b in range(n_bootstrap):
+            sim = genpareto.rvs(shape, loc=0.0, scale=scale, size=n, random_state=rng)
+            c_b, loc_b, scale_b = genpareto.fit(sim, floc=0.0)
+
+            if test == "ad":
+                stats_boot[b] = ad_stat(sim, c_b, scale_b)
+
+            else:
+                stats_boot[b] = cvm_stat(sim, c_b, scale_b)
+
+        p_value = np.mean(stats_boot >= stat_obs)
+
+        return p_value
