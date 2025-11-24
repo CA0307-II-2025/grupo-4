@@ -1,4 +1,4 @@
-from inferencia import inferencia
+from src.data.inferencia import inferencia
 from scipy.stats import norm
 import numpy as np
 import matplotlib.pyplot as plt
