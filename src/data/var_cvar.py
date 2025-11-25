@@ -73,7 +73,7 @@ class var_cvar(inferencia):
         else:
             return cola
 
-    def pareto_generalizada(self, empresa, q: float, graficar=False):
+    def pareto_generalizada(self, empresa, q: float, graficar=False, alpha=0.95):
         """
         Obtiene la distribución generalizada de pareto de
         una distribución basado en POT.
@@ -92,6 +92,13 @@ class var_cvar(inferencia):
         ks_stat, p_val = kstest(excedentes, "genpareto", args=(xi, loc, sigma))
 
         if graficar:
+            var = self.var_cvar_gpd(empresa, alpha, q)[0]
+            cvar = self.var_cvar_gpd(empresa, alpha, q)[1]
+            threshold = self.var_cvar_gpd(empresa, alpha, q)[2]
+
+            VaR = threshold - var
+            CVaR = threshold - cvar
+
             x = np.linspace(0, excedentes.max(), 1000)
             fitted_pdf = genpareto.pdf(x, xi, loc=0, scale=sigma)
 
@@ -103,6 +110,21 @@ class var_cvar(inferencia):
                 alpha=0.7,
                 label="Excedentes",
                 color="navy",
+            )
+
+            plt.axvline(
+                VaR,
+                color="green",
+                linestyle="--",
+                linewidth=2,
+                label=f"VaR = {VaR:.8f}",
+            )
+            plt.axvline(
+                CVaR,
+                color="orange",
+                linestyle="--",
+                linewidth=2,
+                label=f"CVaR = {CVaR:.8f}",
             )
 
             plt.plot(x, fitted_pdf, "r-", lw=2, label="GPD ajustada")
