@@ -46,13 +46,13 @@ analisis_etfs.graficar_rendimientos("QQQ")
 # Obtenemos la cola izquierda al quantil emírico (q)
 analisis_etfs_var_cvar = var_cvar(etfs, inicio, final)
 
-analisis_etfs_var_cvar.cola_izquierda("QQQ", True, q)
+# analisis_etfs_var_cvar.cola_izquierda("QQQ", True, q)
 
 # Obtenemos los gráficos de los excedentes
 analisis_etfs_var_cvar.pareto_generalizada("SPY", q, True)
-analisis_etfs_var_cvar.pareto_generalizada("QQQ", q, True)
+# analisis_etfs_var_cvar.pareto_generalizada("QQQ", q, True)
 
 # Obtenemos VaR y CVaR al alpha = 0.05
-analisis_etfs_var_cvar.var_cvar_gpd("SPY", 0.95, 0.1)
+print(analisis_etfs_var_cvar.var_cvar_gpd("SPY", 0.95, 0.1))
 
-analisis_etfs_var_cvar.pruebas("SPY", q, "ad")
+# analisis_etfs_var_cvar.pruebas("SPY", q, "ad")
