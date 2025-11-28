@@ -3,6 +3,7 @@
 import matplotlib.pyplot as plt
 import seaborn as sns
 from src.data.limpieza_datos import limpieza_datos
+#from limpieza_datos import limpieza_datos
 from scipy.stats import norm
 from statsmodels.stats.diagnostic import normal_ad
 import numpy as np
