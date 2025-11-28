@@ -118,7 +118,32 @@ def page_dash():
         except Exception as e:
             plot_st.empty()
             st.error(f"No fue posible calcular VaR/CVaR: {e}")
+    
+    elif analisis == "VaR y CVaR (Pareto)":
+        st.subheader(f"Cálculo de VaR y CVaR - {empresa}")
+        try:
+            resultados = modelo.var_cvar_gpd(empresa, alpha = conf, q = 10, graficar = True)
+            plot_st = st.pyplot(plt.gcf())
+            #st.markdown(f"**VaR ({conf*100:.1f}%):** {resultados['VaR']:.4f}")
+            st.latex(f"VaR({conf*100:.1f}\%) = {resultados['VaR']:.4f}")
+            #st.markdown(f"**CVaR ({conf*100:.1f}%):** {resultados['CVaR']:.4f}")
+            st.latex(f"CVaR ({conf*100:.1f}\%)= {resultados['CVaR']:.4f}")
+        except Exception as e:
+            plot_st.empty()
+            st.error(f"No fue posible calcular VaR/CVaR: {e}")
 
+    elif analisis == "Cola izquierda":
+        st.subheader(f"Cálculo de VaR y CVaR - {empresa}")
+        try:
+            resultados = modelo.cola_izquierda(empresa, graficar=True)
+            plot_st = st.pyplot(plt.gcf())
+            #st.markdown(f"**VaR ({conf*100:.1f}%):** {resultados['VaR']:.4f}")
+            #st.latex(f"VaR({conf*100:.1f}\%) = {resultados['VaR']:.4f}")
+            #st.markdown(f"**CVaR ({conf*100:.1f}%):** {resultados['CVaR']:.4f}")
+            #st.latex(f"CVaR ({conf*100:.1f}\%)= {resultados['CVaR']:.4f}")
+        except Exception as e:
+            plot_st.empty()
+            st.error(f"No fue posible graficar la cola izquierda de la empresa: {e}")
 
     buffer = io.BytesIO()
     plt.savefig(buffer, format="png")
