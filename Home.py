@@ -78,13 +78,14 @@ def page_dash():
     st.markdown("Si no conoces los símbolos de las empresas puedes ingresar a la página de Yahoo Finance en el siguiente enlace:")
     st.page_link("https://finance.yahoo.com/markets/stocks/most-active/", label="Yahoo Finance", icon="📈")
     empresa = st.selectbox("Seleccione una empresa:", empresas)
-    analisis = st.radio(
+    analisis = st.segmented_control(
         "Seleccione el tipo de análisis:",
         ["Visualizar datos", 
          "Test de Normalidad", 
          "VaR y CVaR (Normal)",
-         "VaR y CVar (Pareto)", 
-         "Cola izquierda"]
+         "VaR y CVaR (Pareto)", 
+         "Cola izquierda"],
+         selection_mode= "single"
     )
 
     # -------------------------------------------------------------------
@@ -95,6 +96,16 @@ def page_dash():
         try:
             modelo.graficar_rendimientos(empresa)
             st.pyplot(plt.gcf())
+            buffer = io.BytesIO()
+            plt.savefig(buffer, format="png")
+            buffer.seek(0)
+
+            st.download_button(
+                label="Descargar Gráfico",
+                data=buffer,
+                file_name=f"{empresa}_{analisis}.png",
+                mime="image/png"
+            )
         except Exception as e:
             st.error(f"No fue posible generar la gráfica: {e}")
 
@@ -103,6 +114,16 @@ def page_dash():
         try:
             modelo.normalidad(empresa, graficar=True)
             st.pyplot(plt.gcf())
+            buffer = io.BytesIO()
+            plt.savefig(buffer, format="png")
+            buffer.seek(0)
+
+            st.download_button(
+                label="Descargar Gráfico",
+                data=buffer,
+                file_name=f"{empresa}_{analisis}.png",
+                mime="image/png"
+            )
         except Exception as e:
             st.error(f"No fue posible generar la gráfica: {e}")
 
@@ -115,6 +136,16 @@ def page_dash():
             st.latex(f"VaR({conf*100:.1f}\%) = {resultados['VaR']:.4f}")
             #st.markdown(f"**CVaR ({conf*100:.1f}%):** {resultados['CVaR']:.4f}")
             st.latex(f"CVaR ({conf*100:.1f}\%)= {resultados['CVaR']:.4f}")
+            buffer = io.BytesIO()
+            plt.savefig(buffer, format="png")
+            buffer.seek(0)
+
+            st.download_button(
+                label="Descargar Gráfico",
+                data=buffer,
+                file_name=f"{empresa}_{analisis}.png",
+                mime="image/png"
+            )
         except Exception as e:
             plot_st.empty()
             st.error(f"No fue posible calcular VaR/CVaR: {e}")
@@ -122,12 +153,22 @@ def page_dash():
     elif analisis == "VaR y CVaR (Pareto)":
         st.subheader(f"Cálculo de VaR y CVaR - {empresa}")
         try:
-            resultados = modelo.var_cvar_gpd(empresa, alpha = conf, q = 10, graficar = True)
+            resultados = modelo.pareto_generalizada(empresa, q = 0.1, graficar = True, alpha = conf)
             plot_st = st.pyplot(plt.gcf())
             #st.markdown(f"**VaR ({conf*100:.1f}%):** {resultados['VaR']:.4f}")
-            st.latex(f"VaR({conf*100:.1f}\%) = {resultados['VaR']:.4f}")
+            #st.latex(f"VaR({conf*100:.1f}\%) = {resultados['VaR']:.4f}")
             #st.markdown(f"**CVaR ({conf*100:.1f}%):** {resultados['CVaR']:.4f}")
-            st.latex(f"CVaR ({conf*100:.1f}\%)= {resultados['CVaR']:.4f}")
+            #st.latex(f"CVaR ({conf*100:.1f}\%)= {resultados['CVaR']:.4f}")
+            buffer = io.BytesIO()
+            plt.savefig(buffer, format="png")
+            buffer.seek(0)
+
+            st.download_button(
+                label="Descargar Gráfico",
+                data=buffer,
+                file_name=f"{empresa}_{analisis}.png",
+                mime="image/png"
+            )
         except Exception as e:
             plot_st.empty()
             st.error(f"No fue posible calcular VaR/CVaR: {e}")
@@ -135,32 +176,70 @@ def page_dash():
     elif analisis == "Cola izquierda":
         st.subheader(f"Cálculo de VaR y CVaR - {empresa}")
         try:
-            resultados = modelo.cola_izquierda(empresa, graficar=True)
+            resultados = modelo.cola_izquierda(empresa, graficar=True, q= 0.1)
             plot_st = st.pyplot(plt.gcf())
             #st.markdown(f"**VaR ({conf*100:.1f}%):** {resultados['VaR']:.4f}")
             #st.latex(f"VaR({conf*100:.1f}\%) = {resultados['VaR']:.4f}")
             #st.markdown(f"**CVaR ({conf*100:.1f}%):** {resultados['CVaR']:.4f}")
             #st.latex(f"CVaR ({conf*100:.1f}\%)= {resultados['CVaR']:.4f}")
+            buffer = io.BytesIO()
+            plt.savefig(buffer, format="png")
+            buffer.seek(0)
+
+            st.download_button(
+                label="Descargar Gráfico",
+                data=buffer,
+                file_name=f"{empresa}_{analisis}.png",
+                mime="image/png"
+            )
         except Exception as e:
             plot_st.empty()
             st.error(f"No fue posible graficar la cola izquierda de la empresa: {e}")
 
-    buffer = io.BytesIO()
-    plt.savefig(buffer, format="png")
-    buffer.seek(0)
-
-    st.download_button(
-        label="Descargar Gráfico",
-        data=buffer,
-        file_name=f"{empresa}_{analisis}.png",
-        mime="image/png"
-    )
+    
 
 
     # -------------------------------------------------------------------
     # Pie de página
     # -------------------------------------------------------------------
-    st.markdown("---")
+    st.html("<hr>")
+    on = st.toggle("Calcular pruebas de hipótesis")
+
+    if on:
+        
+        st.header("Pruebas de hipótesis")
+        analisis_prueba = st.selectbox(
+            "Seleccione el tipo de prueba:",
+            ["KS (Kolmogorov-Smirnov)", 
+            "AD (Anderson-Darling)", 
+            "CVM (Cramer-Von-Mises)"]
+        )
+        if analisis_prueba == "KS (Kolmogorov-Smirnov)":
+            with st.status("Ejecutando prueba...", expanded=True) as status:
+                #mensaje = st.write("Calculando estadístico…")
+                valor_p = modelo.pruebas(empresa, q=0.1, test="ks")
+                
+                mensaje = st.write(f"El p-value asociado a la prueba KS fue {valor_p}")
+                status.update(label="Completado", state="complete")
+            
+
+        elif analisis_prueba == "AD (Anderson-Darling)":
+            with st.status("Ejecutando prueba...", expanded=True) as status:
+                #mensaje = st.write("Calculando estadístico…")
+                valor_p = modelo.pruebas(empresa, q=0.1, test="ad")
+                
+                mensaje = st.write(f"El p-value asociado a la prueba AD fue {valor_p}")
+                status.update(label="Completado", state="complete")
+            
+
+        elif analisis_prueba == "CVM (Cramer-Von-Mises)":
+            with st.status("Ejecutando prueba...", expanded=True) as status:
+                #mensaje = st.write("Calculando estadístico…")
+                valor_p = modelo.pruebas(empresa, q=0.1, test="cvm")
+                
+                mensaje = st.write(f"El p-value asociado a la prueba CVM fue {valor_p}")
+                status.update(label="Completado", state="complete")
+            
 
 def document():
     st.title("Trabajo Escrito")
