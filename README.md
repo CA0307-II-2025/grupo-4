@@ -8,7 +8,7 @@
 
 ## Instrucciones para el uso de los módulos
 
-1. Para conocer mejor la utilización de los métodos VaR y CVaR, leer el informe escrito en la carpeta "data".
+1. Para conocer mejor la utilización de los métodos VaR y CVaR, leer el informe escrito en la carpeta "docs" titulado "Informe Proyecto CA307.pdf" (docs/Informe Proyecto CA307.pdf)
 2. Cada método de cada clase está documentado con su descripción y el archivo "main.py" da un ejemplo de uso.
 3. Para una experiencia de usuario más pura, ejecutar el dashboard.
 
