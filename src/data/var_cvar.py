@@ -1,4 +1,5 @@
 from src.data.inferencia import inferencia
+#from inferencia import inferencia
 from scipy.stats import norm
 import numpy as np
 import matplotlib.pyplot as plt
@@ -135,12 +136,12 @@ class var_cvar(inferencia):
             plt.grid(True)
             plt.show()
 
-            return {"xi": xi, "sigma": sigma, "p valor": p_val, "threshold": threshold}
+            return {"xi": xi, "sigma": sigma, "p valor": p_val, "threshold": threshold}#, "VaR": var, "CVaR": cvar}
 
         elif graficar is not True:
-            return {"xi": xi, "sigma": sigma, "p valor": p_val, "threshold": threshold}
+            return {"xi": xi, "sigma": sigma, "p valor": p_val, "threshold": threshold}#, "VaR": var, "CVaR": cvar}
 
-    def var_cvar_gpd(self, empresa, alpha: float, q: float, graficar = False):
+    def var_cvar_gpd(self, empresa, alpha: float, q: float):
         """
         Obtiene el var y cvar de los rendimientos dado un nivel de confianza
         Args:
@@ -157,8 +158,6 @@ class var_cvar(inferencia):
         dic_gpd = self.pareto_generalizada(empresa, q)
 
         xi, sigma, threshold = dic_gpd["xi"], dic_gpd["sigma"], dic_gpd["threshold"]
-        excedentes = threshold - self.cola_izquierda(empresa, False, q)
-
 
         x = np.asarray(x).ravel()
         X = x[:, None]
@@ -172,47 +171,8 @@ class var_cvar(inferencia):
         VaR = threshold - (sigma / xi) * ((((1 - alpha) / pu) ** -xi) - 1)
 
         CVaR = VaR - (sigma - xi * (VaR - threshold)) / (1 - xi)
-        
-        if graficar:
-            x = np.linspace(0, excedentes.max(), 1000)
-            fitted_pdf = genpareto.pdf(x, xi, loc=0, scale=sigma)
 
-            plt.figure(figsize=(10, 5))
-            sns.histplot(
-                excedentes,
-                bins=100,
-                stat="density",
-                alpha=0.7,
-                label="Excedentes",
-                color="navy",
-            )
-
-            plt.plot(x, fitted_pdf, "r-", lw=2, label="GPD ajustada")
-            plt.title(f"Ajuste GPD a excedentes de {empresa}")
-            plt.xlabel("Excedente (threshold - rendimientos menores)")
-            plt.ylabel("Frecuencia")
-            plt.legend()
-            plt.grid(True)
-            plt.show()
-
-        if VaR is not None:
-            plt.axvline(
-                VaR,
-                color="darkorange",
-                linestyle="--",
-                linewidth=2,
-                label=f"VaR ({var:.3f})",
-            )
-        if CVaR is not None:
-            plt.axvline(
-                CVaR,
-                color="darkgreen",
-                linestyle="--",
-                linewidth=2,
-                label=f"CVaR ({cvar:.3f})",
-            )
-
-        return {"VaR": VaR, "CVaR": CVaR, "threshold": threshold, "xi": xi}
+        return VaR, CVaR, threshold, xi
 
     def pruebas(self, empresa, q: float, test: str):
         x = self.rendimientos_diarios()[empresa].astype(float).to_numpy()
