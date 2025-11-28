@@ -1,5 +1,6 @@
 from src.data.inferencia import inferencia
-#from inferencia import inferencia
+
+# from inferencia import inferencia
 from scipy.stats import norm
 import numpy as np
 import matplotlib.pyplot as plt
@@ -136,10 +137,20 @@ class var_cvar(inferencia):
             plt.grid(True)
             plt.show()
 
-            return {"xi": xi, "sigma": sigma, "p valor": p_val, "threshold": threshold}#, "VaR": var, "CVaR": cvar}
+            return {
+                "xi": xi,
+                "sigma": sigma,
+                "p valor": p_val,
+                "threshold": threshold,
+            }  # , "VaR": var, "CVaR": cvar}
 
         elif graficar is not True:
-            return {"xi": xi, "sigma": sigma, "p valor": p_val, "threshold": threshold}#, "VaR": var, "CVaR": cvar}
+            return {
+                "xi": xi,
+                "sigma": sigma,
+                "p valor": p_val,
+                "threshold": threshold,
+            }  # , "VaR": var, "CVaR": cvar}
 
     def var_cvar_gpd(self, empresa, alpha: float, q: float):
         """
