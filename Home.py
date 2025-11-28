@@ -80,7 +80,11 @@ def page_dash():
     empresa = st.selectbox("Seleccione una empresa:", empresas)
     analisis = st.radio(
         "Seleccione el tipo de análisis:",
-        ["Visualizar datos", "Test de Normalidad", "VaR y CVaR (Normal)"]
+        ["Visualizar datos", 
+         "Test de Normalidad", 
+         "VaR y CVaR (Normal)",
+         "VaR y CVar (Pareto)", 
+         "Cola izquierda"]
     )
 
     # -------------------------------------------------------------------
@@ -147,15 +151,18 @@ def document():
 #Pagina de cada desarrollador
 def resumen():
     st.header("Resumen del equipo")
-
+    st.markdown("""
+                Somos estudiantes de Ciencias Actuariales de la Universidad de Costa Rica. 
+                La idea de este proyecto surge de un proyecto de investigación del curso Estadística Actuarial II.
+                """)
     st.html("<hr>")
 
 def cris():
     st.header("Cristhofer Urrutia")
 
-    st.write('''
-            texto interesante de Cris
-             ''')
+    #st.write('''
+     #       texto interesante de Cris
+      #       ''')
     #st.image("assets/gara.JPG") <div style="padding:20px; border:1px solid #ddd; border-radius:15px; width:70%;">
     cris_html = """
         
@@ -203,9 +210,9 @@ def cris():
 
 def dom():
     st.header("Dominick Rodríguez")
-    st.write('''
-            texto interesante de Dominick
-             ''')
+    #st.write('''
+    #        texto interesante de Dominick
+    #         ''')
     #st.image("assets/gara.JPG") <div style="padding:20px; border:1px solid #ddd; border-radius:15px; width:70%;">
     dom_html = """
         
@@ -252,9 +259,9 @@ def dom():
 
 def gara():
     st.header("Gabriel Valverde")
-    st.write('''
-            texto interesante de gara
-             ''')
+    #st.write('''
+    #        texto interesante de gara
+    #         ''')
     #st.image("assets/gara.JPG") <div style="padding:20px; border:1px solid #ddd; border-radius:15px; width:70%;">
     gara_html = """
         
@@ -302,9 +309,9 @@ def gara():
 
 def jeremy():
     st.header("Jeremy Flores")
-    st.write('''
-            texto interesante de Jeremy
-             ''')
+    #st.write('''
+    #        texto interesante de Jeremy
+    #         ''')
     #st.image("assets/gara.JPG") <div style="padding:20px; border:1px solid #ddd; border-radius:15px; width:70%;">
     jere_html = """
         
