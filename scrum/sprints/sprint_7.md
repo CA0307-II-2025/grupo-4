@@ -6,15 +6,12 @@
 
 ## 😃  Historias de usuario
 
-- HU# - "Título de la Historia" (Estimación: Y pts) – *Criterios de aceptación confirmados.*
-- HU# - ...
-*(Listar las historias del backlog que el equipo se compromete a completar este sprint, con sus IDs y breve nombre.)*
-
-
+- HU59 - "Mejorar el Dashboard y generalizarlo"
+- HU60 - "Añadir 3 pruebas de hipotesis extra"
 
 ## 🔜  Plan de alto nivel:
-- *Semana 1:* _Tareas principales (ej: Ingesta de datos, Setup entorno CI)._
-- *Semana 2:* _Tareas principales (ej: Implementar modelo y validar, preparar demo)._
+- *Semana 1:* _Tareas principales Implementar y probar el dashboard.
+- *Semana 2:* _Tareas principales Investigar sobre pruebas de hipótesis.
 
 
 ## 🥇  Criterios de aceptación del Sprint:
@@ -23,9 +20,9 @@
 
 
 ## 📌  Asignación de tareas inicial
-- *Persona A:* Historia 1
-- *Persona B:* Historia 2
-- *Persona C:* documentación
+- *Cristhofer Urrutia y Jeremy Flores:* Historia 59
+- *Gabriel Valverde y Dominick Rodriguez:* Historia 60
+  
 
 ## 🚫 Posibles bloqueos o impedimentos conocidos
 
@@ -39,44 +36,38 @@
 
 El formato para cada estudiante debe ser
 
-- **¿Qué hice ayer?**: _Describir brevemente las tareas completadas ayer, vinculadas a historias (ej: "Implementé la función de limpieza y escribí test para valores faltantes")._
-- **¿Qué haré hoy?**: _Enumerar foco de hoy (ej: "Integrar resultados descriptivos en el reporte y comenzar prueba de hipótesis")._
-- **¿Hay algo que me está bloqueando?**: _Listar obstáculos o dependencias (ej: "Falta confirmar el rango de años con PO" o "La librería X está dando un bug")._
+- **¿Qué hice ayer?**: Investigar sobre pruebas de hipótesis.
+- **¿Qué haré hoy?**: _Enumerar foco de hoy ("Integrar resultados descriptivos en el reporte y comenzar prueba de hipótesis")._
+- **¿Hay algo que me está bloqueando?**: No
 
 
 
-##  Fecha: YYYY-MM-DD
+##  Fecha: Semana 1
 
-### Estudiante A:
-- **¿Qué hice ayer?**:
-- **¿Qué haré hoy?**:
-- **¿Hay algo que me está bloqueando?**:
+### Gabriel Valverde:
+- **¿Qué hice ayer?**: Implementar el Dashboard
+- **¿Qué haré hoy?**: Implementar el Dashboard
+- **¿Hay algo que me está bloqueando?**: No
 
-### Estudiante B:
-- **¿Qué hice ayer?**:
-- **¿Qué haré hoy?**:
-- **¿Hay algo que me está bloqueando?**:
+### Jeremy Flores:
+- **¿Qué hice ayer?**: Investigar sobre pruebas de hipotesis.
+- **¿Qué haré hoy?**: Investigar sobre pruebas de hipotesis.
+- **¿Hay algo que me está bloqueando?**: No
 
-### Estudiante C:
-- **¿Qué hice ayer?**:
-- **¿Qué haré hoy?**:
-- **¿Hay algo que me está bloqueando?**:
+### Dominick Rodriguez:
+- **¿Qué hice ayer?**: Implementar el dashboard
+- **¿Qué haré hoy?**: Implementar el dashboard
+- **¿Hay algo que me está bloqueando?**: No
 
-### Estudiante D:
-- **¿Qué hice ayer?**:
-- **¿Qué haré hoy?**:
-- **¿Hay algo que me está bloqueando?**:
-
-
-
-# 🔍   Revisión en clase (Fecha: YYYY-MM-DD)
-
-
+### Cristhofer Urrutia 
+- **¿Qué hice ayer?**: Implementar el Dashboar
+- **¿Qué haré hoy?**: Implementar el Dashboar
+- **¿Hay algo que me está bloqueando?**: Implementar el Dashboar
 
 ## 📈  Resultado mostrado
 
-- *Funcionalidad A:* (ej: "Carga automática de dataset desde CSV en base de datos completada").
-- *Funcionalidad B:* (ej: "Gráficos descriptivos generados dinámicamente").
+- *Funcionalidad A:* Se implementó el dashboard.
+- *Funcionalidad B:* Se implementó pruebas de hipotesis.
 
 
 ## :arrows_counterclockwise:  Retroalimentación
