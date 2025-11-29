@@ -6,15 +6,13 @@
 
 ## 😃  Historias de usuario
 
-- HU# - "Título de la Historia" (Estimación: Y pts) – *Criterios de aceptación confirmados.*
-- HU# - ...
-*(Listar las historias del backlog que el equipo se compromete a completar este sprint, con sus IDs y breve nombre.)*
-
+- HU61 - Generar el reporte final en DOCS.
+- HU62 - Generar una presentación en CANVA.
 
 
 ## 🔜  Plan de alto nivel:
-- *Semana 1:* _Tareas principales (ej: Ingesta de datos, Setup entorno CI)._
-- *Semana 2:* _Tareas principales (ej: Implementar modelo y validar, preparar demo)._
+- *Semana 1:* _Tareas principales Investigar sobre normas APA y requisitos de Serengueti.
+- *Semana 2:* _Tareas principales Hacer la presentación y practicar la exposición.
 
 
 ## 🥇  Criterios de aceptación del Sprint:
@@ -23,17 +21,10 @@
 
 
 ## 📌  Asignación de tareas inicial
-- *Persona A:* Historia 1
-- *Persona B:* Historia 2
-- *Persona C:* documentación
-
-## 🚫 Posibles bloqueos o impedimentos conocidos
-
-- **Bloqueo:** _No tenemos la base de datos limpia.
-- **Solución** _Crear una historia solo para limpiar la base de datos_.
-
-
-
+- Cristhofer Urrutia Cascante:  Historia 61
+- Dominick Rodriguez: Historia 61
+- Jeremy Flores Bonilla: Historia 62
+- Gabriel Valverde Guzman: Historia 62
 
 # ⏳  Daily
 
@@ -45,44 +36,42 @@ El formato para cada estudiante debe ser
 
 
 
-##  Fecha: YYYY-MM-DD
+##  Fecha: 2025-11-25
 
-### Estudiante A:
-- **¿Qué hice ayer?**:
-- **¿Qué haré hoy?**:
-- **¿Hay algo que me está bloqueando?**:
+### Cristhofer Urrutia:
+- **¿Qué hice ayer?**: Añadir información al reporte.
+- **¿Qué haré hoy?**: Añadir más información al reporte.
+- **¿Hay algo que me está bloqueando?**: No
 
-### Estudiante B:
-- **¿Qué hice ayer?**:
-- **¿Qué haré hoy?**:
-- **¿Hay algo que me está bloqueando?**:
+### Gabriel Valverde:
+- **¿Qué hice ayer?**: Añadir a la presentación.
+- **¿Qué haré hoy?**: Añadir a la presentación.
+- **¿Hay algo que me está bloqueando?**: No.
 
-### Estudiante C:
-- **¿Qué hice ayer?**:
-- **¿Qué haré hoy?**:
-- **¿Hay algo que me está bloqueando?**:
+### Jeremy Flores:
+- **¿Qué hice ayer?**: Añadir a la presentación.
+- **¿Qué haré hoy?**: Añadir a la presentaión.
+- **¿Hay algo que me está bloqueando?**: No.
 
-### Estudiante D:
-- **¿Qué hice ayer?**:
-- **¿Qué haré hoy?**:
-- **¿Hay algo que me está bloqueando?**:
+### Dominick Rodriguez:
+- **¿Qué hice ayer?**: Añadir al escrito.
+- **¿Qué haré hoy?**: Añadir al escrito.
+- **¿Hay algo que me está bloqueando?**: No.
 
 
 
-# 🔍   Revisión en clase (Fecha: YYYY-MM-DD)
+# 🔍   Revisión en clase (Fecha: 2025-11-28)
 
 
 
 ## 📈  Resultado mostrado
 
-- *Funcionalidad A:* (ej: "Carga automática de dataset desde CSV en base de datos completada").
-- *Funcionalidad B:* (ej: "Gráficos descriptivos generados dinámicamente").
-
+- *Funcionalidad A:* Se presentó el proyecto final.
 
 ## :arrows_counterclockwise:  Retroalimentación
 
 - **Profesor**:
-- **Compañeros:**
+- **Compañeros:** 
 
 
 ## ✔️  Criterios de aceptación cumplidos:
