@@ -71,7 +71,7 @@ El formato para cada estudiante debe ser
 ## :arrows_counterclockwise:  Retroalimentación
 
 - **Profesor**:
-- **Compañeros:** 
+- **Compañeros:**
 
 
 ## ✔️  Criterios de aceptación cumplidos:
