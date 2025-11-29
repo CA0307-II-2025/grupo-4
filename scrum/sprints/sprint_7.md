@@ -22,7 +22,7 @@
 ## 📌  Asignación de tareas inicial
 - *Cristhofer Urrutia y Jeremy Flores:* Historia 59
 - *Gabriel Valverde y Dominick Rodriguez:* Historia 60
-  
+
 
 ## 🚫 Posibles bloqueos o impedimentos conocidos
 
@@ -59,7 +59,7 @@ El formato para cada estudiante debe ser
 - **¿Qué haré hoy?**: Implementar el dashboard
 - **¿Hay algo que me está bloqueando?**: No
 
-### Cristhofer Urrutia 
+### Cristhofer Urrutia
 - **¿Qué hice ayer?**: Implementar el Dashboar
 - **¿Qué haré hoy?**: Implementar el Dashboar
 - **¿Hay algo que me está bloqueando?**: Implementar el Dashboar
