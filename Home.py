@@ -288,20 +288,6 @@ def cris():
                     <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" width="32">
                 </a>
 
-                <!-- Instagram -->
-                <a href="https://www.instagram.com/cjuc_12?igsh=MTJnZXAwMzhtZHVwOQ%3D%3D&utm_source=qr" target="_blank">
-                    <img src="https://cdn-icons-png.flaticon.com/512/1409/1409946.png" width="32">
-                </a>
-
-                <!-- Correo -->
-                <a href="mailto:cristopherurrutia82@gmail.com">
-                    <img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" width="32">
-                </a>
-
-                <!-- WhatsApp -->
-                <a href="https://wa.me/50663128651" target="_blank">
-                    <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" width="32">
-                </a>
             </div>
             <hr>
 
@@ -338,20 +324,6 @@ def dom():
                     <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" width="32">
                 </a>
 
-                <!-- Instagram -->
-                <a href="https://www.instagram.com/1400dominick/" target="_blank">
-                    <img src="https://cdn-icons-png.flaticon.com/512/1409/1409946.png" width="32">
-                </a>
-
-                <!-- Correo -->
-                <a href="mailto:drt1415@gmail.com">
-                    <img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" width="32">
-                </a>
-
-                <!-- WhatsApp -->
-                <a href="https://wa.me/50687080725" target="_blank">
-                    <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" width="32">
-                </a>
             </div>
             <hr>
 
@@ -388,20 +360,6 @@ def gara():
                     <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" width="32">
                 </a>
 
-                <!-- Instagram -->
-                <a href="https://www.instagram.com/garabito05/" target="_blank">
-                    <img src="https://cdn-icons-png.flaticon.com/512/1409/1409946.png" width="32">
-                </a>
-
-                <!-- Correo -->
-                <a href="mailto:gabriel.valverde.guzman@gmail.com">
-                    <img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" width="32">
-                </a>
-
-                <!-- WhatsApp -->
-                <a href="https://wa.me/50688562914" target="_blank">
-                    <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" width="32">
-                </a>
             </div>
             <hr>
 
@@ -437,20 +395,6 @@ def jeremy():
                     <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" width="32">
                 </a>
 
-                <!-- Instagram -->
-                <a href="https://www.instagram.com/garabito05/" target="_blank">
-                    <img src="https://cdn-icons-png.flaticon.com/512/1409/1409946.png" width="32">
-                </a>
-
-                <!-- Correo -->
-                <a href="mailto:gabriel.valverde.guzman@gmail.com">
-                    <img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" width="32">
-                </a>
-
-                <!-- WhatsApp -->
-                <a href="https://wa.me/50687657891" target="_blank">
-                    <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" width="32">
-                </a>
             </div>
             <hr>
 
