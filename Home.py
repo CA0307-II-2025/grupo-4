@@ -284,7 +284,7 @@ def cris():
             <div style="display:flex; gap:20px; align-items:center; margin-top:10px;">
 
                 <!-- LinkedIn -->
-                <a href="https://www.linkedin.com/in/gabriel-esteban-valverde-guzmán-46539a362/" target="_blank">
+                <a href="https://www.linkedin.com/in/cristhofer-urrutia-33a378399?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank">
                     <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" width="32">
                 </a>
 
