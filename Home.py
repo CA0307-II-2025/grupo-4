@@ -1,11 +1,12 @@
 # dashboard_streamlit.py
-import streamlit as st
-import matplotlib.pyplot as plt
+import io
 from datetime import date
+
+import matplotlib.pyplot as plt
+import streamlit as st
 
 # Importar clases desde los módulos
 from src.data.var_cvar import var_cvar
-import io
 
 
 def page_dash():
@@ -134,9 +135,9 @@ def page_dash():
             resultados = modelo.var_cvar_normal(empresa, graficar=True)
             plot_st = st.pyplot(plt.gcf())
             # st.markdown(f"**VaR ({conf*100:.1f}%):** {resultados['VaR']:.4f}")
-            st.latex(f"VaR({conf * 100:.1f}\%) = {resultados['VaR']:.4f}")
+            st.latex(rf"VaR({conf * 100:.1f}\%) = {resultados['VaR']:.4f}")
             # st.markdown(f"**CVaR ({conf*100:.1f}%):** {resultados['CVaR']:.4f}")
-            st.latex(f"CVaR ({conf * 100:.1f}\%)= {resultados['CVaR']:.4f}")
+            st.latex(rf"CVaR ({conf * 100:.1f}\%)= {resultados['CVaR']:.4f}")
             buffer = io.BytesIO()
             plt.savefig(buffer, format="png")
             buffer.seek(0)
@@ -419,7 +420,7 @@ def page_us():
 def page_yahoo():
     st.title("Sobre Yahoo Finance")
     with open("dash_txt/yahoo.txt", "r", encoding="utf-8") as yh:
-        for i in yh.readlines():
+        for i in yh:
             st.markdown(i)
     st.markdown("---")
 
