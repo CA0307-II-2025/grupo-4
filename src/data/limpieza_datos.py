@@ -1,10 +1,11 @@
 # Funciones para carga, limpieza de datos y graficación:
 
-import yfinance as yf
-import numpy as np
 import os
-import seaborn as sns
+
 import matplotlib.pyplot as plt
+import numpy as np
+import seaborn as sns
+import yfinance as yf
 
 
 class limpieza_datos:
