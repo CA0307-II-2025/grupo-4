@@ -1,13 +1,14 @@
 # Funciones para cálculos simples VaR y CVaR:
 
 import matplotlib.pyplot as plt
+import numpy as np
 import seaborn as sns
-from src.data.limpieza_datos import limpieza_datos
 
 # from limpieza_datos import limpieza_datos
 from scipy.stats import norm
 from statsmodels.stats.diagnostic import normal_ad
-import numpy as np
+
+from src.data.limpieza_datos import limpieza_datos
 
 
 class inferencia(limpieza_datos):
