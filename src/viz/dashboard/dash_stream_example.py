@@ -1,6 +1,6 @@
-import streamlit as st
-import pandas as pd
 import matplotlib.pyplot as plt
+import pandas as pd
+import streamlit as st
 
 ruta = (
     "/Users/gara/Desktop/Estadistica_II/grupo-4/src/data/csv/rendimientos_diarios.csv"
