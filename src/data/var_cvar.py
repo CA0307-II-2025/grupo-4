@@ -1,13 +1,12 @@
-from src.data.inferencia import inferencia
+import matplotlib.pyplot as plt
+import numpy as np
+import seaborn as sns
 
 # from inferencia import inferencia
-from scipy.stats import norm
-import numpy as np
-import matplotlib.pyplot as plt
-import seaborn as sns
-from scipy.stats import genpareto
-from scipy.stats import kstest
+from scipy.stats import genpareto, kstest, norm
 from statsmodels.nonparametric.kernel_density import KDEMultivariate
+
+from src.data.inferencia import inferencia
 
 
 class var_cvar(inferencia):
